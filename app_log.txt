@@ -1,0 +1,1488 @@
+--------- beginning of main
+04-21 13:16:03.351  1895 13726 I ReactNativeJS: 
+04-21 13:16:03.353  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:3:351 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '1152', 'Raw data from ble [170,4,1,39,224,200,204,126,161,174,124,155,114,82,144,107,214,200,74,142,176,7,148,216]'
+04-21 13:16:03.371  1895 13726 I ReactNativeJS: 
+04-21 13:16:03.374  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:3:372 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '121', 'RECV Serial_No: SAM00020250421KK Msg_Id: 46 Trans_Id: 7 InterFace: 1 SetOrQuery: 0 Data: {"parameter_ID":1,"relay_sts":0,"malfunction_error":false,"state":3,"app_id":1,"relay_sts_chg_time":1745221561,"query_notify":1}'
+04-21 13:16:03.377  1895 13726 I ReactNativeJS: 
+04-21 13:16:03.379  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:3:377 PM ] ', 'INFO', 'GENERAL_INFO', '284', 'Data : {"serial_no":"SAM00020250421KK","relay_status":0,"state":3,"app_id":1,"query_notify":1}'
+04-21 13:16:03.392  1895 13726 I ReactNativeJS: 'nextstate......', [ { serial_no: 'SAM00020250421KK',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     name: 'testuser_1',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     is_admin: true,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     router_ssid: '',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     router_mac: '',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     heating_dur_usg_limit: 20,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     inverse_schedule_dur: 20,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     infinityOn_Toggle: true,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     brand_name: 'Select Brand',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     model_name: '',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     capacity: '',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     room_size: undefined,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     auto_onoff_enable: undefined,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     sch_ovr_auto_onoff: undefined,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     dev_led_quiet_mode: false,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     high_temp_thrs: NaN,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     low_temp_thrs: NaN,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     latitude: 11.9392838,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     longitude: 79.8083792,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     cur_firm_vrs: '1.15',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     hw_vrs: '0.5',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     product_type: '0',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     svr_ota: false,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     max_alaram_supported: 24,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     device_OTA_State: 0,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     update_Status: 'NotUpdated',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     BLE_mac: '34:98:7A:9F:57:B2',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     app_id: 1,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     token_key: 19,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     build_number: 64,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     IP_add: '',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     energy_config_mode: 0,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     low_volt_thrs: 160,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     high_volt_thrsh: 275,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     enable_low_volt: false,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     enable_high_volt: false,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     localConnection: false,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     serverConnection: false,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     connection: false,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     onOffStatus: 1,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     current: '',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     voltage: '',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     power: '',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     is_appid_exist: true,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     temp: '',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     temp_connect_status: false,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     loading: false,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     auth_status: 2,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     temperQueryStatus: false,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     eleTempQueryStatus: false,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     device_Id: '6805e97fe1dd8429ae7e812c',
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     srv_vrs: 0,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     cert_vrs: 2,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     srv_typ: 1,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     latest_cert_vrs: 2,
+04-21 13:16:03.392  1895 13726 I ReactNativeJS:     cert_expiry: '2125-05-02T18:30:00.000Z' } ]
+04-21 13:16:03.398  1895 13726 I ReactNativeJS: 'onoff data..........', { serial_no: 'SAM00020250421KK',
+04-21 13:16:03.398  1895 13726 I ReactNativeJS:   relay_status: 0,
+04-21 13:16:03.398  1895 13726 I ReactNativeJS:   state: 3,
+04-21 13:16:03.398  1895 13726 I ReactNativeJS:   app_id: 1,
+04-21 13:16:03.398  1895 13726 I ReactNativeJS:   query_notify: 1 }
+04-21 13:16:03.398  1895 13726 I ReactNativeJS: 'previous_data onff..........', { SAM00020250421KK: true }
+04-21 13:16:03.400  1895 13726 I ReactNativeJS: 'inside onoff action', 'SAM00020250421KK', false, { SAM00020250421KK: true }
+04-21 13:16:03.400  1895 13726 I ReactNativeJS: 'before update onoff', { SAM00020250421KK: true }
+04-21 13:16:03.401  1895 13726 I ReactNativeJS: 'after update onoff', { SAM00020250421KK: false }
+04-21 13:16:03.409  1895 13726 I ReactNativeJS: 'connectivity.........', { SAM00020250421KK: 
+04-21 13:16:03.409  1895 13726 I ReactNativeJS:    { serverConnection: false,
+04-21 13:16:03.409  1895 13726 I ReactNativeJS:      localConnection: true,
+04-21 13:16:03.409  1895 13726 I ReactNativeJS:      connection: true } }
+04-21 13:16:03.409  1895 13726 I ReactNativeJS: 'onOff deviceselection.........', { SAM00020250421KK: false }
+04-21 13:16:03.505  1895 13726 I ReactNativeJS: 'connectivity.........', { SAM00020250421KK: 
+04-21 13:16:03.505  1895 13726 I ReactNativeJS:    { serverConnection: false,
+04-21 13:16:03.505  1895 13726 I ReactNativeJS:      localConnection: true,
+04-21 13:16:03.505  1895 13726 I ReactNativeJS:      connection: true } }
+04-21 13:16:03.505  1895 13726 I ReactNativeJS: 'onOff deviceselection.........', { SAM00020250421KK: false }
+04-21 13:16:03.563  1895 13726 I ReactNativeJS: 
+04-21 13:16:03.563  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:3:563 PM ] ', 'INFO', 'GENERAL_INFO', '285', 'Data : [{"serial_no":"SAM00020250421KK","name":"testuser_1","is_admin":true,"router_ssid":"","router_mac":"","heating_dur_usg_limit":20,"inverse_schedule_dur":20,"infinityOn_Toggle":true,"brand_name":"Select Brand","model_name":"","capacity":"","dev_led_quiet_mode":false,"high_temp_thrs":null,"low_temp_thrs":null,"latitude":11.9392838,"longitude":79.8083792,"cur_firm_vrs":"1.15","hw_vrs":"0.5","product_type":"0","svr_ota":false,"max_alaram_supported":24,"device_OTA_State":0,"update_Status":"NotUpdated","BLE_mac":"34:98:7A:9F:57:B2","app_id":1,"token_key":19,"build_number":64,"IP_add":"","energy_config_mode":0,"low_volt_thrs":160,"high_volt_thrsh":275,"enable_low_volt":false,"enable_high_volt":false,"localConnection":false,"serverConnection":false,"connection":false,"onOffStatus":0,"current":"","voltage":"","power":"","is_appid_exist":true,"temp":"","temp_connect_status":false,"loading":false,"auth_status":2,"temperQueryStatus":false,"eleTempQueryStatus":false,"device_Id":"6805e97fe1dd8429ae7e812c","srv_vrs":0,"cert_vrs":2,"srv_typ":1,"latest_cert_vrs":2,"cert_expiry":"2125-05-02T18:30:00.000Z"}]'
+04-21 13:16:03.565  1895 13726 E ReactNativeJS: 'get dev dinex header', { OptionsEnable: [Function: OptionsEnable],
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:   options: true,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:   notification_length: { notification: false, maintenance: false },
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:   selectedDevice: 
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:    { serial_no: 'SAM00020250421KK',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      name: 'testuser_1',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      is_admin: true,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      router_ssid: '',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      router_mac: '',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      heating_dur_usg_limit: 20,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      inverse_schedule_dur: 20,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      infinityOn_Toggle: true,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      brand_name: 'Select Brand',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      model_name: '',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      capacity: '',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      room_size: undefined,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      auto_onoff_enable: undefined,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      sch_ovr_auto_onoff: undefined,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      dev_led_quiet_mode: false,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      high_temp_thrs: NaN,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      low_temp_thrs: NaN,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      latitude: 11.9392838,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      longitude: 79.8083792,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      cur_firm_vrs: '1.15',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      hw_vrs: '0.5',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      product_type: '0',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      svr_ota: false,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      max_alaram_supported: 24,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      device_OTA_State: 0,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      update_Status: 'NotUpdated',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      BLE_mac: '34:98:7A:9F:57:B2',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      app_id: 1,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      token_key: 19,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      build_number: 64,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      IP_add: '',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      energy_config_mode: 0,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      low_volt_thrs: 160,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      high_volt_thrsh: 275,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      enable_low_volt: false,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      enable_high_volt: false,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      localConnection: false,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      serverConnection: false,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      connection: false,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      onOffStatus: 0,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      current: '',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      voltage: '',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      power: '',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      is_appid_exist: true,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      temp: '',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      temp_connect_status: false,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      loading: false,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      auth_status: 2,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      temperQueryStatus: false,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      eleTempQueryStatus: false,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      device_Id: '6805e97fe1dd8429ae7e812c',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      srv_vrs: 0,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      cert_vrs: 2,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      srv_typ: 1,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      latest_cert_vrs: 2,
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:      cert_expiry: '2125-05-02T18:30:00.000Z' },
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:   userToken: '6805dc96e1dd8429ae7e8114',
+04-21 13:16:03.565  1895 13726 E ReactNativeJS:   navigateTo: [Function: navigateTo] }
+04-21 13:16:03.570  1895 13726 I ReactNativeJS: 'connectivity.........', { SAM00020250421KK: 
+04-21 13:16:03.570  1895 13726 I ReactNativeJS:    { serverConnection: false,
+04-21 13:16:03.570  1895 13726 I ReactNativeJS:      localConnection: true,
+04-21 13:16:03.570  1895 13726 I ReactNativeJS:      connection: true } }
+04-21 13:16:03.570  1895 13726 I ReactNativeJS: 'onOff deviceselection.........', { SAM00020250421KK: false }
+04-21 13:16:03.608  1895 13726 I ReactNativeJS: 
+04-21 13:16:03.608  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:3:608 PM ] ', 'INFO', 'GENERAL_INFO', '2110', 'Preparing the list of notifications device detected error [] Maintenance [] allDevices [{"serial_no":"SAM00020250421KK","name":"testuser_1","is_admin":true,"router_ssid":"","router_mac":"","heating_dur_usg_limit":20,"inverse_schedule_dur":20,"infinityOn_Toggle":true,"brand_name":"Select Brand","model_name":"","capacity":"","dev_led_quiet_mode":false,"high_temp_thrs":null,"low_temp_thrs":null,"latitude":11.9392838,"longitude":79.8083792,"cur_firm_vrs":"1.15","hw_vrs":"0.5","product_type":"0","svr_ota":false,"max_alaram_supported":24,"device_OTA_State":0,"update_Status":"NotUpdated","BLE_mac":"34:98:7A:9F:57:B2","app_id":1,"token_key":19,"build_number":64,"IP_add":"","energy_config_mode":0,"low_volt_thrs":160,"high_volt_thrsh":275,"enable_low_volt":false,"enable_high_volt":false,"localConnection":false,"serverConnection":false,"connection":false,"onOffStatus":0,"current":"","voltage":"","power":"","is_appid_exist":true,"temp":"","temp_connect_status":false,"loading":false,"auth_status":2,"temperQueryStatus":false,"eleTempQueryStatus":false,"device_Id":"6805e97fe1dd8429ae7e812c","srv_vrs":0,"cert_vrs":2,"srv_typ":1,"latest_cert_vrs":2,"cert_expiry":"2125-05-02T18:30:00.000Z"}] data {"parameter_ID":1,"relay_sts":0,"malfunction_error":false,"state":3,"app_id":1,"relay_sts_chg_time":1745221561,"query_notify":1,"serial_no":"SAM00020250421KK"} device name testuser_1'
+04-21 13:16:03.608  1895 13726 I ReactNativeJS: 
+04-21 13:16:03.609  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:3:608 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '1152', 'Raw data from ble [170,4,1,40,108,189,112,8,72,253,23,58,130,234,110,72,22,71,28,87,229,22,235,250]'
+04-21 13:16:03.615  1895 13726 I ReactNativeJS: 
+04-21 13:16:03.615  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:3:615 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '121', 'RECV Serial_No: SAM00020250421KK Msg_Id: 26 Trans_Id: 8 InterFace: 1 SetOrQuery: 0 Data: {"current_index_timestamp":1745221561}'
+04-21 13:16:03.616  1895 13726 I ReactNativeJS: 
+04-21 13:16:03.616  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:3:616 PM ] ', 'final_last_synced_time_stamp======================>', 1745220767, undefined, undefined
+04-21 13:16:03.617  1895 13726 I ReactNativeJS: 
+04-21 13:16:03.617  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:3:617 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '120', 'SEND Serial_No:SAM00020250421KK Msg_Id: 26 Frame: 170,3,1,34,154,2,0,0,159,244,5,104,0,0,0,0,80,10,251,181 Trans_Id: 2 InterFace: undefined Auth: 1 forceInterface: undefined Data:{"setorquery":1,"message":"offline_msg_info","last_sync_time_req":1745220767,"instant_Update":0}'
+04-21 13:16:03.617  1895 13726 I ReactNativeJS: 
+04-21 13:16:03.617  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:3:617 PM ] ', 'INFO', 'GENERAL_INFO', '121', 'Data: Current_Connectivity_Mode: 1'
+04-21 13:16:03.624  1895 13726 I ReactNativeJS: 
+04-21 13:16:03.625  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:3:625 PM ] ', 'INFO', 'GENERAL_INFO', '122', 'Data: Sending BLE write message in connectivity 34:98:7A:9F:57:B2 [170,4,1,34,201,169,20,76,201,139,125,31,65,55,95,178,0,143,225,175,20,97,41,147]'
+04-21 13:16:03.979  1895 13726 I ReactNativeJS: 
+04-21 13:16:03.980  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:3:980 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '1152', 'Raw data from ble [170,8,1,34,140,22,81,79,102,67,58,102,171,200,43,73,21,31,35,47,106,211,204,6,68,30,22,198,4,218,176,79,187,242,66,150,144,144,181,139]'
+04-21 13:16:03.983  1895 13726 I ReactNativeJS: 'Before decode the msg_id 24 ==>', { '0': 128,
+04-21 13:16:03.983  1895 13726 I ReactNativeJS:   '1': 247,
+04-21 13:16:03.983  1895 13726 I ReactNativeJS:   '2': 5,
+04-21 13:16:03.983  1895 13726 I ReactNativeJS:   '3': 104,
+04-21 13:16:03.983  1895 13726 I ReactNativeJS:   '4': 57,
+04-21 13:16:03.983  1895 13726 I ReactNativeJS:   '5': 0,
+04-21 13:16:03.983  1895 13726 I ReactNativeJS:   '6': 0,
+04-21 13:16:03.983  1895 13726 I ReactNativeJS:   '7': 0,
+04-21 13:16:03.983  1895 13726 I ReactNativeJS:   '8': 1,
+04-21 13:16:03.983  1895 13726 I ReactNativeJS:   '9': 6,
+04-21 13:16:03.983  1895 13726 I ReactNativeJS:   '10': 156,
+04-21 13:16:03.983  1895 13726 I ReactNativeJS:   '11': 99,
+04-21 13:16:03.983  1895 13726 I ReactNativeJS:   '12': 156,
+04-21 13:16:03.983  1895 13726 I ReactNativeJS:   '13': 99,
+04-21 13:16:03.983  1895 13726 I ReactNativeJS:   '14': 0,
+04-21 13:16:03.983  1895 13726 I ReactNativeJS:   '15': 0 }
+04-21 13:16:03.984  1895 13726 I ReactNativeJS: 
+04-21 13:16:03.984  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:3:984 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '121', 'RECV Serial_No: SAM00020250421KK Msg_Id: 24 Trans_Id: 2 InterFace: 1 SetOrQuery: 0 Data: {"relay_start_time":1745221504,"duration":57,"next_session":0,"total_energy":0,"app_id":1,"ses_strt_temp":25500,"ses_stop_temp":25500}'
+04-21 13:16:03.985  1895 13726 I ReactNativeJS: 
+04-21 13:16:03.985  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:3:985 PM ] ', 'INFO', 'GENERAL_INFO', '168', 'Analytics step 7 : session data timer ID not created[object Object]'
+04-21 13:16:03.985  1895 13726 I ReactNativeJS: 
+04-21 13:16:03.986  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:3:986 PM ] ', 'INFO', 'GENERAL_INFO', '1613', 'Analytics step 11 : Received serial number data fetching from the application local storage{"SAM00020250421KK":[{"energy_used":0,"skt_on_time":1745220671,"skt_on_off_dur":96,"synced":true,"start_temp":25500,"end_temp":25500,"user_id":"6805dc96e1dd8429ae7e8114","device_Id":"6805e97fe1dd8429ae7e812c"}]}Data[serial_no][{"energy_used":0,"skt_on_time":1745220671,"skt_on_off_dur":96,"synced":true,"start_temp":25500,"end_temp":25500,"user_id":"6805dc96e1dd8429ae7e8114","device_Id":"6805e97fe1dd8429ae7e812c"}]Session Data{"data":{"relay_start_time":1745221504,"duration":57,"next_session":0,"total_energy":0,"app_id":1,"ses_strt_temp":25500,"ses_stop_temp":25500},"msg_id":24,"serial_no":"SAM00020250421KK"}'
+04-21 13:16:04.994  1895 13726 I ReactNativeJS: 
+04-21 13:16:04.995  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:4:995 PM ] ', 'INFO', 'GENERAL_INFO', '1617', 'Analytics step 19 : Filter the selected serial number from the application state for getting the respective device ID mappingSAM00020250421KKIndex :0'
+04-21 13:16:04.995  1895 13726 I ReactNativeJS: 
+04-21 13:16:04.996  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:4:995 PM ] ', 'INFO', 'GENERAL_INFO', '1618', 'Analytics step 21: Filtering the Un-synced data [{"energy_used":0,"skt_on_time":1745220671,"skt_on_off_dur":96,"synced":true,"start_temp":25500,"end_temp":25500,"user_id":"6805dc96e1dd8429ae7e8114","device_Id":"6805e97fe1dd8429ae7e812c"},{"energy_used":0,"skt_on_time":1745221504,"skt_on_off_dur":57,"serial_no":"SAM00020250421KK","synced":false,"start_temp":25500,"end_temp":25500,"user_id":"6805dc96e1dd8429ae7e8114"}] device_ID: 6805e97fe1dd8429ae7e812c'
+04-21 13:16:04.996  1895 13726 I ReactNativeJS: 
+04-21 13:16:04.996  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:4:996 PM ] ', 'INFO', 'GENERAL_INFO', '1619', 'Analytics step 22 : Filtered the Un-synced data [{"energy_used":0,"skt_on_time":1745221504,"skt_on_off_dur":57,"synced":false,"start_temp":25500,"end_temp":25500,"user_id":"6805dc96e1dd8429ae7e8114","device_Id":"6805e97fe1dd8429ae7e812c"}]'
+04-21 13:16:04.997  1895 13726 I ReactNativeJS: 
+04-21 13:16:04.997  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:4:997 PM ] ', 'INFO', 'API', '1626', 'Analytics step 26 : SEND API_ID: 401 Data: {"sessions":[{"energy_used":0,"rly_on_time":1745221504,"rly_on_off_dur":57,"synced":false,"start_temp":25500,"end_temp":25500,"user_id":"6805dc96e1dd8429ae7e8114","device_Id":"6805e97fe1dd8429ae7e812c"}]}'
+04-21 13:16:04.997  1895 13726 I ReactNativeJS: 
+04-21 13:16:04.998  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:4:998 PM ] ', 'INFO', 'API', '1664', 'SEND API_ID: 401 Data: geyser_session_data_update payload {"sessions":[{"energy_used":0,"rly_on_time":1745221504,"rly_on_off_dur":57,"synced":false,"start_temp":25500,"end_temp":25500,"user_id":"6805dc96e1dd8429ae7e8114","device_Id":"6805e97fe1dd8429ae7e812c"}]}'
+04-21 13:16:05.002  1895 13726 I ReactNativeJS: Energy save and wasted feature
+04-21 13:16:05.002  1895 13726 I ReactNativeJS: 
+04-21 13:16:05.003  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:5:2 PM ] ', 'Analytics step 32 : No session available in water session local storage', [], undefined, undefined
+04-21 13:16:05.160  1895 13726 I ReactNativeJS: 
+04-21 13:16:05.161  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:5:161 PM ] ', 'INFO', 'API', '1664', 'RECV API_ID: 401 Data: geyser_session_data_update response {"message":"Successfully updated","status":"success"}'
+04-21 13:16:05.161  1895 13726 I ReactNativeJS: 
+04-21 13:16:05.161  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:5:161 PM ] ', 'INFO', 'API', '1627', 'Analytics step 27 : RECV API_ID: 401 Data: {"message":"Successfully updated","status":"success"}'
+04-21 13:16:05.162  1895 13726 I ReactNativeJS: 
+04-21 13:16:05.162  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:5:162 PM ] ', 'INFO', 'GENERAL_INFO', '1629', 'Analytics step 27 : Changed the server synced parameter {"SAM00020250421KK":[{"energy_used":0,"skt_on_time":1745220671,"skt_on_off_dur":96,"synced":true,"start_temp":25500,"end_temp":25500,"user_id":"6805dc96e1dd8429ae7e8114","device_Id":"6805e97fe1dd8429ae7e812c"},{"energy_used":0,"skt_on_time":1745221504,"skt_on_off_dur":57,"synced":true,"start_temp":25500,"end_temp":25500,"user_id":"6805dc96e1dd8429ae7e8114","device_Id":"6805e97fe1dd8429ae7e812c"}]}'
+04-21 13:16:08.875  1895 13726 I ReactNativeJS: 
+04-21 13:16:08.875  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:8:875 PM ] ', 'addEventListener', 'background', undefined, undefined
+04-21 13:16:08.877  1895 13726 I ReactNativeJS: 
+04-21 13:16:08.878  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:8:878 PM ] ', 'deep linking =====================>', '', undefined, undefined
+04-21 13:16:08.879  1895 13726 I ReactNativeJS: 
+04-21 13:16:08.879  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:8:879 PM ] ', { SAM00020250421KK: 
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:    [ { energy_used: 0,
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:        skt_on_time: 1745220671,
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:        skt_on_off_dur: 96,
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:        synced: true,
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:        start_temp: 25500,
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:        end_temp: 25500,
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:        user_id: '6805dc96e1dd8429ae7e8114',
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:        device_Id: '6805e97fe1dd8429ae7e812c' },
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:      { energy_used: 0,
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:        skt_on_time: 1745221504,
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:        skt_on_off_dur: 57,
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:        synced: true,
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:        start_temp: 25500,
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:        end_temp: 25500,
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:        user_id: '6805dc96e1dd8429ae7e8114',
+04-21 13:16:08.879  1895 13726 I ReactNativeJS:        device_Id: '6805e97fe1dd8429ae7e812c' } ] }, 'analytics_Session_data==============>', undefined, undefined
+04-21 13:16:08.879  1895 13726 I ReactNativeJS: 
+04-21 13:16:08.879  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:8:879 PM ] ', {}, 'analytics_Session_data==============>', undefined, undefined
+04-21 13:16:09.177  1895 13726 I ReactNativeJS: 
+04-21 13:16:09.177  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:9:177 PM ] ', 'addEventListener', 'active', undefined, undefined
+04-21 13:16:09.177  1895 13726 I ReactNativeJS: App has came to the foreground!
+04-21 13:16:09.177  1895 13726 I ReactNativeJS: 
+04-21 13:16:09.177  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:9:177 PM ] ', 'AppState', 'background', undefined, undefined
+04-21 13:16:09.177  1895 13726 I ReactNativeJS: 
+04-21 13:16:09.177  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:9:177 PM ] ', 'deep linking =====================>', '', undefined, undefined
+04-21 13:16:09.179  1895 13726 I ReactNativeJS: Logs written successfully!
+04-21 13:16:09.179  1895 13726 I ReactNativeJS: 
+04-21 13:16:09.179  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:9:179 PM ] ', 'AppState', 'active', undefined, undefined
+04-21 13:16:14.200  1895 13726 I ReactNativeJS: '<== Home Helper Page Redirection Inside Function is  Called ==>', 'Scheduler', [Function: bound dispatchSetState], { replace: [Function],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   push: [Function],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   pop: [Function],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   popToTop: [Function],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   goBack: [Function],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   navigate: [Function],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   reset: [Function],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   setParams: [Function],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   dispatch: [Function: dispatch],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   isFocused: [Function: isFocused],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   canGoBack: [Function: canGoBack],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   getId: [Function: getId],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   getParent: [Function: getParent],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   getState: [Function],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   addListener: [Function: addListener],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   removeListener: [Function: removeListener],
+04-21 13:16:14.200  1895 13726 I ReactNativeJS:   setOptions: [Function: setOptions] }
+04-21 13:16:14.202  1895 13726 E ReactNativeJS: 'get dev dinex header', { OptionsEnable: [Function: OptionsEnable],
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:   options: true,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:   notification_length: { notification: false, maintenance: false },
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:   selectedDevice: 
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:    { serial_no: 'SAM00020250421KK',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      name: 'testuser_1',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      is_admin: true,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      router_ssid: '',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      router_mac: '',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      heating_dur_usg_limit: 20,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      inverse_schedule_dur: 20,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      infinityOn_Toggle: true,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      brand_name: 'Select Brand',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      model_name: '',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      capacity: '',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      room_size: undefined,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      auto_onoff_enable: undefined,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      sch_ovr_auto_onoff: undefined,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      dev_led_quiet_mode: false,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      high_temp_thrs: NaN,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      low_temp_thrs: NaN,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      latitude: 11.9392838,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      longitude: 79.8083792,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      cur_firm_vrs: '1.15',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      hw_vrs: '0.5',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      product_type: '0',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      svr_ota: false,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      max_alaram_supported: 24,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      device_OTA_State: 0,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      update_Status: 'NotUpdated',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      BLE_mac: '34:98:7A:9F:57:B2',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      app_id: 1,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      token_key: 19,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      build_number: 64,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      IP_add: '',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      energy_config_mode: 0,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      low_volt_thrs: 160,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      high_volt_thrsh: 275,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      enable_low_volt: false,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      enable_high_volt: false,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      localConnection: false,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      serverConnection: false,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      connection: false,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      onOffStatus: 0,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      current: '',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      voltage: '',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      power: '',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      is_appid_exist: true,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      temp: '',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      temp_connect_status: false,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      loading: false,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      auth_status: 2,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      temperQueryStatus: false,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      eleTempQueryStatus: false,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      device_Id: '6805e97fe1dd8429ae7e812c',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      srv_vrs: 0,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      cert_vrs: 2,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      srv_typ: 1,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      latest_cert_vrs: 2,
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:      cert_expiry: '2125-05-02T18:30:00.000Z' },
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:   userToken: '6805dc96e1dd8429ae7e8114',
+04-21 13:16:14.202  1895 13726 E ReactNativeJS:   navigateTo: [Function: navigateTo] }
+04-21 13:16:14.208  1895 13726 I ReactNativeJS: 'connectivity.........', { SAM00020250421KK: 
+04-21 13:16:14.208  1895 13726 I ReactNativeJS:    { serverConnection: false,
+04-21 13:16:14.208  1895 13726 I ReactNativeJS:      localConnection: true,
+04-21 13:16:14.208  1895 13726 I ReactNativeJS:      connection: true } }
+04-21 13:16:14.208  1895 13726 I ReactNativeJS: 'onOff deviceselection.........', { SAM00020250421KK: false }
+04-21 13:16:14.244  1895 13726 E ReactNativeJS: 'selected device index home helper', 0
+04-21 13:16:14.257  1895 13726 I ReactNativeJS: 'YourSchedule....', []
+04-21 13:16:14.257  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:16:14.257  1895 13726 I ReactNativeJS: 'Yourschedule data.....', []
+04-21 13:16:14.257  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 0
+04-21 13:16:14.257  1895 13726 I ReactNativeJS: '.........list', []
+04-21 13:16:14.257  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:16:14.268  1895 13726 I ReactNativeJS: 
+04-21 13:16:14.268  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:14:268 PM ] ', 'INFO', 'GENERAL_INFO', '221', 'Entering scheduler page...'
+04-21 13:16:14.268  1895 13726 I ReactNativeJS: 
+04-21 13:16:14.268  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:14:268 PM ] ', 'INFO', 'GENERAL_INFO', '227', 'Data: []'
+04-21 13:16:14.268  1895 13726 I ReactNativeJS: 'Schedule data...........', []
+04-21 13:16:14.270  1895 13726 I ReactNativeJS: 
+04-21 13:16:14.270  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:14:270 PM ] ', 'INFO', 'GENERAL_INFO', '228', 'Data: 0'
+04-21 13:16:14.270  1895 13726 I ReactNativeJS: 
+04-21 13:16:14.270  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:14:270 PM ] ', 'WARN', 'GENERAL_INFO', '2211', 'Data: true'
+04-21 13:16:14.275  1895 13726 I ReactNativeJS: 
+04-21 13:16:14.276  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:14:276 PM ] ', 'INFO', 'GENERAL_INFO', '225', 'Data: {"SAM00020250421KK":[]}'
+04-21 13:16:14.286  1895 13726 I ReactNativeJS: 'YourSchedule....', []
+04-21 13:16:14.286  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:16:14.286  1895 13726 I ReactNativeJS: 'Yourschedule data.....', []
+04-21 13:16:14.286  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 0
+04-21 13:16:14.287  1895 13726 I ReactNativeJS: '.........list', []
+04-21 13:16:14.287  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:16:14.294  1895 13726 I ReactNativeJS: 
+04-21 13:16:14.294  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:14:294 PM ] ', 'INFO', 'GENERAL_INFO', '227', 'Data: []'
+04-21 13:16:14.295  1895 13726 I ReactNativeJS: 'Schedule data...........', []
+04-21 13:16:14.295  1895 13726 I ReactNativeJS: 
+04-21 13:16:14.295  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:14:295 PM ] ', 'INFO', 'GENERAL_INFO', '228', 'Data: 0'
+04-21 13:16:14.295  1895 13726 I ReactNativeJS: 
+04-21 13:16:14.296  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:14:296 PM ] ', 'WARN', 'GENERAL_INFO', '2211', 'Data: true'
+04-21 13:16:15.219  1895 13726 E ReactNativeJS: 'get dev dinex header', { OptionsEnable: [Function: OptionsEnable],
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:   options: true,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:   notification_length: { notification: false, maintenance: false },
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:   selectedDevice: 
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:    { serial_no: 'SAM00020250421KK',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      name: 'testuser_1',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      is_admin: true,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      router_ssid: '',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      router_mac: '',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      heating_dur_usg_limit: 20,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      inverse_schedule_dur: 20,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      infinityOn_Toggle: true,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      brand_name: 'Select Brand',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      model_name: '',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      capacity: '',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      room_size: undefined,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      auto_onoff_enable: undefined,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      sch_ovr_auto_onoff: undefined,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      dev_led_quiet_mode: false,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      high_temp_thrs: NaN,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      low_temp_thrs: NaN,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      latitude: 11.9392838,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      longitude: 79.8083792,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      cur_firm_vrs: '1.15',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      hw_vrs: '0.5',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      product_type: '0',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      svr_ota: false,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      max_alaram_supported: 24,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      device_OTA_State: 0,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      update_Status: 'NotUpdated',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      BLE_mac: '34:98:7A:9F:57:B2',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      app_id: 1,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      token_key: 19,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      build_number: 64,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      IP_add: '',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      energy_config_mode: 0,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      low_volt_thrs: 160,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      high_volt_thrsh: 275,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      enable_low_volt: false,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      enable_high_volt: false,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      localConnection: false,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      serverConnection: false,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      connection: false,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      onOffStatus: 0,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      current: '',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      voltage: '',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      power: '',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      is_appid_exist: true,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      temp: '',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      temp_connect_status: false,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      loading: false,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      auth_status: 2,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      temperQueryStatus: false,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      eleTempQueryStatus: false,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      device_Id: '6805e97fe1dd8429ae7e812c',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      srv_vrs: 0,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      cert_vrs: 2,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      srv_typ: 1,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      latest_cert_vrs: 2,
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:      cert_expiry: '2125-05-02T18:30:00.000Z' },
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:   userToken: '6805dc96e1dd8429ae7e8114',
+04-21 13:16:15.219  1895 13726 E ReactNativeJS:   navigateTo: [Function: navigateTo] }
+04-21 13:16:15.229  1895 13726 I ReactNativeJS: 'connectivity.........', { SAM00020250421KK: 
+04-21 13:16:15.229  1895 13726 I ReactNativeJS:    { serverConnection: false,
+04-21 13:16:15.229  1895 13726 I ReactNativeJS:      localConnection: true,
+04-21 13:16:15.229  1895 13726 I ReactNativeJS:      connection: true } }
+04-21 13:16:15.230  1895 13726 I ReactNativeJS: 'onOff deviceselection.........', { SAM00020250421KK: false }
+04-21 13:16:16.183  1895 13726 I ReactNativeJS: 'YourSchedule....', []
+04-21 13:16:16.183  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:16:16.183  1895 13726 I ReactNativeJS: 'Yourschedule data.....', []
+04-21 13:16:16.183  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 0
+04-21 13:16:16.183  1895 13726 I ReactNativeJS: '.........list', []
+04-21 13:16:16.183  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:16:16.186  1895 13726 I ReactNativeJS: 
+04-21 13:16:16.186  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:16:186 PM ] ', 'INFO', 'GENERAL_INFO', '2212', 'Data: 1 \n    Data1: 24 Data2: 0 Data3:  \n    Data4:  Data5: false'
+04-21 13:16:16.186  1895 13726 I ReactNativeJS: '........new_index', 0
+04-21 13:16:16.186  1895 13726 I ReactNativeJS: 
+04-21 13:16:16.186  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:16:186 PM ] ', 'INFO', 'GENERAL_INFO', '2213', 'Data: 0'
+04-21 13:16:16.186  1895 13726 I ReactNativeJS: 
+04-21 13:16:16.186  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:16:186 PM ] ', 'INFO', 'GENERAL_INFO', '2214', 'Data: {"id":0,"hh":7,"mm":46,"index":0,"enable_disable":1,"selectedtime":"2025-04-21T07:46:16.180Z","heatingduration":0,"repeat":false,"weekdays":[1],"appid":1,"toggle":true,"synced":false,"scheduleType":0,"endAction":0}'
+04-21 13:16:16.190  1895 13726 I ReactNativeJS: 'YourSchedule....', []
+04-21 13:16:16.190  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:16:16.190  1895 13726 I ReactNativeJS: 'Yourschedule data.....', []
+04-21 13:16:16.190  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 0
+04-21 13:16:16.190  1895 13726 I ReactNativeJS: '.........list', []
+04-21 13:16:16.190  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:16:16.195  1895 13726 I ReactNativeJS: 'YourSchedule....', []
+04-21 13:16:16.196  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:16:16.196  1895 13726 I ReactNativeJS: 'Yourschedule data.....', []
+04-21 13:16:16.196  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 0
+04-21 13:16:16.196  1895 13726 I ReactNativeJS: '.........list', []
+04-21 13:16:16.196  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:16:16.201  1895 13726 I ReactNativeJS: 'YourSchedule....', []
+04-21 13:16:16.201  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:16:16.201  1895 13726 I ReactNativeJS: 'Yourschedule data.....', []
+04-21 13:16:16.201  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 0
+04-21 13:16:16.201  1895 13726 I ReactNativeJS: '.........list', []
+04-21 13:16:16.201  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:16:16.206  1895 13726 I ReactNativeJS: 'YourSchedule....', []
+04-21 13:16:16.207  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:16:16.207  1895 13726 I ReactNativeJS: 'Yourschedule data.....', []
+04-21 13:16:16.207  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 0
+04-21 13:16:16.207  1895 13726 I ReactNativeJS: '.........list', []
+04-21 13:16:16.207  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:16:16.212  1895 13726 I ReactNativeJS: 'YourSchedule....', []
+04-21 13:16:16.212  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:16:16.212  1895 13726 I ReactNativeJS: 'Yourschedule data.....', []
+04-21 13:16:16.212  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 0
+04-21 13:16:16.213  1895 13726 I ReactNativeJS: '.........list', []
+04-21 13:16:16.213  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:16:16.217  1895 13726 I ReactNativeJS: 'YourSchedule....', []
+04-21 13:16:16.218  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:16:16.218  1895 13726 I ReactNativeJS: 'Yourschedule data.....', []
+04-21 13:16:16.218  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 0
+04-21 13:16:16.218  1895 13726 I ReactNativeJS: '.........list', []
+04-21 13:16:16.218  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:16:16.223  1895 13726 I ReactNativeJS: 'YourSchedule....', []
+04-21 13:16:16.223  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:16:16.223  1895 13726 I ReactNativeJS: 'Yourschedule data.....', []
+04-21 13:16:16.223  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 0
+04-21 13:16:16.223  1895 13726 I ReactNativeJS: '.........list', []
+04-21 13:16:16.223  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:16:16.228  1895 13726 I ReactNativeJS: 'YourSchedule....', []
+04-21 13:16:16.228  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:16:16.228  1895 13726 I ReactNativeJS: 'Yourschedule data.....', []
+04-21 13:16:16.228  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 0
+04-21 13:16:16.229  1895 13726 I ReactNativeJS: '.........list', []
+04-21 13:16:16.229  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:16:16.234  1895 13726 E ReactNativeJS: 'geting error in schedule', { data: 
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:    { id: 0,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:      hh: 7,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:      mm: 46,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:      index: 0,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:      enable_disable: 1,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:      selectedtime: Mon Apr 21 2025 13:16:16 GMT+0530,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:      heatingduration: 0,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:      repeat: false,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:      weekdays: [ 1 ],
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:      appid: 1,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:      toggle: true,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:      synced: false,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:      scheduleType: 0,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:      endAction: 0 },
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   scheduledata: [],
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   index: 0,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   appid: 1,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   save: [Function: onsaving],
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   cancel: [Function: Oncanceling],
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   todelete: [Function: handledelete],
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   max_alaram: 24,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   hideView: [Function: hideView],
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   CurrentHours: 1,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   currentMinutes: 16,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   currentAMPM: 'PM',
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   endHours: 1,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   endMinutes: 16,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   endAMPM: 'PM',
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   createSchedule: true,
+04-21 13:16:16.234  1895 13726 E ReactNativeJS:   ScheduleTypeStatus: 'ON' }
+04-21 13:16:16.302  1895 13726 I ReactNativeJS: 
+04-21 13:16:16.302  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:16:302 PM ] ', 'INFO', 'GENERAL_INFO', '2216', 'Data: {"data":{"id":0,"hh":7,"mm":46,"index":0,"enable_disable":1,"selectedtime":"2025-04-21T07:46:16.180Z","heatingduration":0,"repeat":false,"weekdays":[1],"appid":1,"toggle":true,"synced":false,"scheduleType":0,"endAction":0},"scheduledata":[],"index":0,"appid":1,"max_alaram":24,"CurrentHours":1,"currentMinutes":16,"currentAMPM":"PM","endHours":1,"endMinutes":16,"endAMPM":"PM","createSchedule":true,"ScheduleTypeStatus":"ON"}'
+04-21 13:16:23.875  1895 13726 I ReactNativeJS: 
+04-21 13:16:23.876  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:23:875 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '1152', 'Raw data from ble [170,4,1,32,167,107,161,224,102,90,60,25,188,49,176,159,100,139,216,33,76,112,11,152]'
+04-21 13:16:23.886  1895 13726 I ReactNativeJS: 
+04-21 13:16:23.887  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:23:886 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '121', 'RECV Serial_No: SAM00020250421KK Msg_Id: 42 Trans_Id: 0 InterFace: 1 SetOrQuery: 0 Data: {"msg_len":0,"msg_type":5,"num_pkt_req":238,"message":""}'
+04-21 13:16:23.887  1895 13726 I ReactNativeJS: 
+04-21 13:16:23.889  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:23:887 PM ] ', '[info] ', 'callBack.js ', 'Data received for BLE PING Message ', { msg_len: 0, msg_type: 5, num_pkt_req: 238, message: '' }
+04-21 13:16:23.892  1895 13726 I ReactNativeJS: 
+04-21 13:16:23.893  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:23:892 PM ] ', '[info] ', 'callBack.js ', 'PING Message frame to be sent to device', '170,2,1,35,170,1,0,0,0,0,5,238,255,252,251,50 SAM00020250421KK'
+04-21 13:16:23.894  1895 13726 I ReactNativeJS: 
+04-21 13:16:23.895  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:23:894 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '120', 'SEND Serial_No:SAM00020250421KK Msg_Id: undefined Frame: 170,2,1,35,170,1,0,0,0,0,5,238,255,252,251,50 Trans_Id: undefined InterFace: undefined Auth: 1 forceInterface: undefined Data:undefined'
+04-21 13:16:23.896  1895 13726 I ReactNativeJS: 
+04-21 13:16:23.897  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:23:896 PM ] ', 'INFO', 'GENERAL_INFO', '121', 'Data: Current_Connectivity_Mode: 1'
+04-21 13:16:23.905  1895 13726 I ReactNativeJS: 
+04-21 13:16:23.906  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:23:905 PM ] ', 'INFO', 'GENERAL_INFO', '122', 'Data: Sending BLE write message in connectivity 34:98:7A:9F:57:B2 [170,4,1,35,242,39,197,230,136,11,143,215,9,37,255,219,178,3,162,60,148,241,233,10]'
+04-21 13:16:23.910  1895 13726 I ReactNativeJS: 
+04-21 13:16:23.910  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:23:910 PM ] ', 'PING Message sent to device', 'BLE Sent Success || if condition || BLEWriteMessages 1', undefined, undefined
+04-21 13:16:26.019  1895 13726 E ReactNativeJS: 'hours mins check', 1, 1, 17, '16', 'PM', 'PM'
+04-21 13:16:26.025  1895 13726 I ReactNativeJS: 
+04-21 13:16:26.025  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:26:25 PM ] ', 'INFO', 'GENERAL_INFO', '2218', 'Data: "17" Data1: 17'
+04-21 13:16:26.028  1895 13726 E ReactNativeJS: 'geting error in schedule', { data: 
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:    { id: 0,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:      hh: 7,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:      mm: 46,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:      index: 0,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:      enable_disable: 1,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:      selectedtime: Mon Apr 21 2025 13:16:16 GMT+0530,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:      heatingduration: 0,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:      repeat: false,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:      weekdays: [ 1 ],
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:      appid: 1,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:      toggle: true,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:      synced: false,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:      scheduleType: 0,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:      endAction: 0 },
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   scheduledata: [],
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   index: 0,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   appid: 1,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   save: [Function: onsaving],
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   cancel: [Function: Oncanceling],
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   todelete: [Function: handledelete],
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   max_alaram: 24,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   hideView: [Function: hideView],
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   CurrentHours: 1,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   currentMinutes: 16,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   currentAMPM: 'PM',
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   endHours: 1,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   endMinutes: 16,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   endAMPM: 'PM',
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   createSchedule: true,
+04-21 13:16:26.028  1895 13726 E ReactNativeJS:   ScheduleTypeStatus: 'ON' }
+04-21 13:16:30.313  1895 13726 E ReactNativeJS: 'hours mins check', 1, 1, 18, '16', 'PM', 'PM'
+04-21 13:16:30.316  1895 13726 I ReactNativeJS: 
+04-21 13:16:30.316  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:30:316 PM ] ', 'INFO', 'GENERAL_INFO', '2218', 'Data: "18" Data1: 18'
+04-21 13:16:30.319  1895 13726 E ReactNativeJS: 'geting error in schedule', { data: 
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:    { id: 0,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:      hh: 7,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:      mm: 46,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:      index: 0,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:      enable_disable: 1,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:      selectedtime: Mon Apr 21 2025 13:16:16 GMT+0530,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:      heatingduration: 0,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:      repeat: false,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:      weekdays: [ 1 ],
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:      appid: 1,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:      toggle: true,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:      synced: false,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:      scheduleType: 0,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:      endAction: 0 },
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   scheduledata: [],
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   index: 0,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   appid: 1,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   save: [Function: onsaving],
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   cancel: [Function: Oncanceling],
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   todelete: [Function: handledelete],
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   max_alaram: 24,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   hideView: [Function: hideView],
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   CurrentHours: 1,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   currentMinutes: 16,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   currentAMPM: 'PM',
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   endHours: 1,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   endMinutes: 16,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   endAMPM: 'PM',
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   createSchedule: true,
+04-21 13:16:30.319  1895 13726 E ReactNativeJS:   ScheduleTypeStatus: 'ON' }
+04-21 13:16:34.974  1895 13726 E ReactNativeJS: 'hours mins check', 1, 1, 19, '16', 'PM', 'PM'
+04-21 13:16:34.977  1895 13726 I ReactNativeJS: 
+04-21 13:16:34.977  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:34:977 PM ] ', 'INFO', 'GENERAL_INFO', '2218', 'Data: "19" Data1: 19'
+04-21 13:16:34.979  1895 13726 E ReactNativeJS: 'geting error in schedule', { data: 
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:    { id: 0,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:      hh: 7,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:      mm: 46,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:      index: 0,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:      enable_disable: 1,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:      selectedtime: Mon Apr 21 2025 13:16:16 GMT+0530,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:      heatingduration: 0,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:      repeat: false,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:      weekdays: [ 1 ],
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:      appid: 1,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:      toggle: true,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:      synced: false,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:      scheduleType: 0,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:      endAction: 0 },
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   scheduledata: [],
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   index: 0,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   appid: 1,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   save: [Function: onsaving],
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   cancel: [Function: Oncanceling],
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   todelete: [Function: handledelete],
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   max_alaram: 24,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   hideView: [Function: hideView],
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   CurrentHours: 1,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   currentMinutes: 16,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   currentAMPM: 'PM',
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   endHours: 1,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   endMinutes: 16,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   endAMPM: 'PM',
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   createSchedule: true,
+04-21 13:16:34.979  1895 13726 E ReactNativeJS:   ScheduleTypeStatus: 'ON' }
+04-21 13:16:44.152  1895 13726 I ReactNativeJS: 
+04-21 13:16:44.154  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:44:153 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '1152', 'Raw data from ble [170,4,1,32,103,78,186,191,134,137,14,176,90,186,70,66,16,123,138,220,254,253,134,78]'
+04-21 13:16:44.164  1895 13726 I ReactNativeJS: 
+04-21 13:16:44.166  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:44:164 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '121', 'RECV Serial_No: SAM00020250421KK Msg_Id: 42 Trans_Id: 0 InterFace: 1 SetOrQuery: 0 Data: {"msg_len":0,"msg_type":5,"num_pkt_req":237,"message":""}'
+04-21 13:16:44.166  1895 13726 I ReactNativeJS: 
+04-21 13:16:44.168  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:44:166 PM ] ', '[info] ', 'callBack.js ', 'Data received for BLE PING Message ', { msg_len: 0, msg_type: 5, num_pkt_req: 237, message: '' }
+04-21 13:16:44.171  1895 13726 I ReactNativeJS: 
+04-21 13:16:44.173  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:44:171 PM ] ', '[info] ', 'callBack.js ', 'PING Message frame to be sent to device', '170,2,1,36,170,1,0,0,0,0,5,237,255,252,251,54 SAM00020250421KK'
+04-21 13:16:44.174  1895 13726 I ReactNativeJS: 
+04-21 13:16:44.175  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:44:174 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '120', 'SEND Serial_No:SAM00020250421KK Msg_Id: undefined Frame: 170,2,1,36,170,1,0,0,0,0,5,237,255,252,251,54 Trans_Id: undefined InterFace: undefined Auth: 1 forceInterface: undefined Data:undefined'
+04-21 13:16:44.176  1895 13726 I ReactNativeJS: 
+04-21 13:16:44.177  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:44:176 PM ] ', 'INFO', 'GENERAL_INFO', '121', 'Data: Current_Connectivity_Mode: 1'
+04-21 13:16:44.185  1895 13726 I ReactNativeJS: 
+04-21 13:16:44.186  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:44:185 PM ] ', 'INFO', 'GENERAL_INFO', '122', 'Data: Sending BLE write message in connectivity 34:98:7A:9F:57:B2 [170,4,1,36,9,219,167,214,38,211,20,154,35,20,57,234,243,86,131,86,170,177,247,43]'
+04-21 13:16:44.192  1895 13726 I ReactNativeJS: 
+04-21 13:16:44.193  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:44:193 PM ] ', 'PING Message sent to device', 'BLE Sent Success || if condition || BLEWriteMessages 1', undefined, undefined
+04-21 13:16:45.113  1895 13726 E ReactNativeJS: 'hours mins check', 1, 1, 19, 17, 'PM', 'PM'
+04-21 13:16:45.116  1895 13726 I ReactNativeJS: 
+04-21 13:16:45.117  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:45:116 PM ] ', 'INFO', 'GENERAL_INFO', '2218', 'Data: "17" Data1: 17'
+04-21 13:16:45.118  1895 13726 E ReactNativeJS: 'geting error in schedule', { data: 
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:    { id: 0,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:      hh: 7,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:      mm: 46,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:      index: 0,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:      enable_disable: 1,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:      selectedtime: Mon Apr 21 2025 13:16:16 GMT+0530,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:      heatingduration: 0,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:      repeat: false,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:      weekdays: [ 1 ],
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:      appid: 1,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:      toggle: true,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:      synced: false,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:      scheduleType: 0,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:      endAction: 0 },
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   scheduledata: [],
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   index: 0,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   appid: 1,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   save: [Function: onsaving],
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   cancel: [Function: Oncanceling],
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   todelete: [Function: handledelete],
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   max_alaram: 24,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   hideView: [Function: hideView],
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   CurrentHours: 1,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   currentMinutes: 16,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   currentAMPM: 'PM',
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   endHours: 1,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   endMinutes: 16,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   endAMPM: 'PM',
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   createSchedule: true,
+04-21 13:16:45.118  1895 13726 E ReactNativeJS:   ScheduleTypeStatus: 'ON' }
+04-21 13:16:49.207  1895 13726 E ReactNativeJS: 'hours mins check', 1, 1, 19, 18, 'PM', 'PM'
+04-21 13:16:49.210  1895 13726 I ReactNativeJS: 
+04-21 13:16:49.210  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:49:210 PM ] ', 'INFO', 'GENERAL_INFO', '2218', 'Data: "18" Data1: 18'
+04-21 13:16:49.212  1895 13726 E ReactNativeJS: 'geting error in schedule', { data: 
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:    { id: 0,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:      hh: 7,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:      mm: 46,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:      index: 0,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:      enable_disable: 1,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:      selectedtime: Mon Apr 21 2025 13:16:16 GMT+0530,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:      heatingduration: 0,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:      repeat: false,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:      weekdays: [ 1 ],
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:      appid: 1,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:      toggle: true,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:      synced: false,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:      scheduleType: 0,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:      endAction: 0 },
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   scheduledata: [],
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   index: 0,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   appid: 1,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   save: [Function: onsaving],
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   cancel: [Function: Oncanceling],
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   todelete: [Function: handledelete],
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   max_alaram: 24,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   hideView: [Function: hideView],
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   CurrentHours: 1,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   currentMinutes: 16,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   currentAMPM: 'PM',
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   endHours: 1,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   endMinutes: 16,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   endAMPM: 'PM',
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   createSchedule: true,
+04-21 13:16:49.212  1895 13726 E ReactNativeJS:   ScheduleTypeStatus: 'ON' }
+04-21 13:16:53.269  1895 13726 E ReactNativeJS: 'hours mins check', 1, 1, 19, 19, 'PM', 'PM'
+04-21 13:16:53.271  1895 13726 I ReactNativeJS: 
+04-21 13:16:53.272  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:53:271 PM ] ', 'INFO', 'GENERAL_INFO', '2218', 'Data: "19" Data1: 19'
+04-21 13:16:53.274  1895 13726 E ReactNativeJS: 'geting error in schedule', { data: 
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:    { id: 0,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:      hh: 7,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:      mm: 46,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:      index: 0,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:      enable_disable: 1,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:      selectedtime: Mon Apr 21 2025 13:16:16 GMT+0530,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:      heatingduration: 0,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:      repeat: false,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:      weekdays: [ 1 ],
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:      appid: 1,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:      toggle: true,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:      synced: false,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:      scheduleType: 0,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:      endAction: 0 },
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   scheduledata: [],
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   index: 0,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   appid: 1,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   save: [Function: onsaving],
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   cancel: [Function: Oncanceling],
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   todelete: [Function: handledelete],
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   max_alaram: 24,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   hideView: [Function: hideView],
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   CurrentHours: 1,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   currentMinutes: 16,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   currentAMPM: 'PM',
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   endHours: 1,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   endMinutes: 16,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   endAMPM: 'PM',
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   createSchedule: true,
+04-21 13:16:53.274  1895 13726 E ReactNativeJS:   ScheduleTypeStatus: 'ON' }
+04-21 13:16:57.980  1895 13726 E ReactNativeJS: 'hours mins check', 1, 1, 19, 20, 'PM', 'PM'
+04-21 13:16:57.983  1895 13726 I ReactNativeJS: 
+04-21 13:16:57.983  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:16:57:983 PM ] ', 'INFO', 'GENERAL_INFO', '2218', 'Data: "20" Data1: 20'
+04-21 13:16:57.985  1895 13726 E ReactNativeJS: 'geting error in schedule', { data: 
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:    { id: 0,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:      hh: 7,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:      mm: 46,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:      index: 0,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:      enable_disable: 1,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:      selectedtime: Mon Apr 21 2025 13:16:16 GMT+0530,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:      heatingduration: 0,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:      repeat: false,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:      weekdays: [ 1 ],
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:      appid: 1,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:      toggle: true,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:      synced: false,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:      scheduleType: 0,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:      endAction: 0 },
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   scheduledata: [],
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   index: 0,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   appid: 1,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   save: [Function: onsaving],
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   cancel: [Function: Oncanceling],
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   todelete: [Function: handledelete],
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   max_alaram: 24,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   hideView: [Function: hideView],
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   CurrentHours: 1,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   currentMinutes: 16,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   currentAMPM: 'PM',
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   endHours: 1,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   endMinutes: 16,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   endAMPM: 'PM',
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   createSchedule: true,
+04-21 13:16:57.985  1895 13726 E ReactNativeJS:   ScheduleTypeStatus: 'ON' }
+04-21 13:17:03.393  1895 13726 I ReactNativeJS: 'adjust date', 1, 19, 'PM'
+04-21 13:17:03.393  1895 13726 I ReactNativeJS: '....selectedDate', Mon Apr 21 2025 13:19:03 GMT+0530
+04-21 13:17:03.393  1895 13726 I ReactNativeJS: '...currentWeekday', 1, '...selectedDate', Mon Apr 21 2025 13:19:03 GMT+0530
+04-21 13:17:03.393  1895 13726 I ReactNativeJS: 'enabledSchedules....', []
+04-21 13:17:03.393  1895 13726 I ReactNativeJS: 'selectedDate', Mon Apr 21 2025 13:19:03 GMT+0530
+04-21 13:17:03.393  1895 13726 I ReactNativeJS: 'today', Mon Apr 21 2025 13:17:03 GMT+0530
+04-21 13:17:03.393  1895 13726 I ReactNativeJS: 'currentDay', 1
+04-21 13:17:03.393  1895 13726 I ReactNativeJS: 'selectedHour', 13
+04-21 13:17:03.393  1895 13726 I ReactNativeJS: 'selectedMinute', 19
+04-21 13:17:03.393  1895 13726 I ReactNativeJS: 'currentHour', 13
+04-21 13:17:03.393  1895 13726 I ReactNativeJS: 'currentMinute', 17
+04-21 13:17:03.394  1895 13726 I ReactNativeJS: 'week_days', [ 1 ]
+04-21 13:17:03.394  1895 13726 I ReactNativeJS: 'week_days.length', 1
+04-21 13:17:03.394  1895 13726 I ReactNativeJS: 'current day entereddddddddddd', 1
+04-21 13:17:03.394  1895 13726 I ReactNativeJS: 'selectedHour', 13
+04-21 13:17:03.394  1895 13726 I ReactNativeJS: 'selectedMinute', 19
+04-21 13:17:03.394  1895 13726 I ReactNativeJS: 'currentHour', 13
+04-21 13:17:03.394  1895 13726 I ReactNativeJS: 'currentMinute', 17
+04-21 13:17:03.394  1895 13726 I ReactNativeJS: 'nextDay', 1
+04-21 13:17:03.394  1895 13726 I ReactNativeJS: 'If part week data checking ===>', Mon Apr 21 2025 13:19:03 GMT+0530
+04-21 13:17:03.394  1895 13726 I ReactNativeJS: 'endTime.....', Mon Apr 21 2025 13:19:03 GMT+0530
+04-21 13:17:03.394  1895 13726 I ReactNativeJS: '......editdata', { id: 0,
+04-21 13:17:03.394  1895 13726 I ReactNativeJS:   hh: 7,
+04-21 13:17:03.394  1895 13726 I ReactNativeJS:   mm: 46,
+04-21 13:17:03.394  1895 13726 I ReactNativeJS:   index: 0,
+04-21 13:17:03.394  1895 13726 I ReactNativeJS:   enable_disable: 1,
+04-21 13:17:03.394  1895 13726 I ReactNativeJS:   selectedtime: Mon Apr 21 2025 13:16:16 GMT+0530,
+04-21 13:17:03.394  1895 13726 I ReactNativeJS:   heatingduration: 0,
+04-21 13:17:03.394  1895 13726 I ReactNativeJS:   repeat: false,
+04-21 13:17:03.394  1895 13726 I ReactNativeJS:   weekdays: [ 1 ],
+04-21 13:17:03.394  1895 13726 I ReactNativeJS:   appid: 1,
+04-21 13:17:03.394  1895 13726 I ReactNativeJS:   toggle: true,
+04-21 13:17:03.394  1895 13726 I ReactNativeJS:   synced: false,
+04-21 13:17:03.394  1895 13726 I ReactNativeJS:   scheduleType: 0,
+04-21 13:17:03.394  1895 13726 I ReactNativeJS:   endAction: 0 }
+04-21 13:17:03.394  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.394  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:394 PM ] ', 'WARN', 'GENERAL_INFO', '2240', 'UpdatedSchedule: {"id":0,"hh":7,"mm":49,"index":0,"enable_disable":1,"selectedtime":"2025-04-21T07:49:03.393Z","heatingduration":1,"repeat":false,"weekdays":[1],"appid":1,"toggle":true,"synced":false,"scheduleType":0,"endAction":0}'
+04-21 13:17:03.400  1895 13726 I ReactNativeJS: 'YourSchedule....', []
+04-21 13:17:03.400  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:17:03.401  1895 13726 I ReactNativeJS: 'Yourschedule data.....', []
+04-21 13:17:03.401  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 0
+04-21 13:17:03.401  1895 13726 I ReactNativeJS: '.........list', []
+04-21 13:17:03.401  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:17:03.406  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.407  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:406 PM ] ', 'INFO', 'GENERAL_INFO', '2243', 'Data: {"id":0,"hh":7,"mm":49,"index":0,"enable_disable":1,"selectedtime":"2025-04-21T07:49:03.393Z","heatingduration":1,"repeat":false,"weekdays":[1],"appid":1,"toggle":true,"synced":false,"scheduleType":0,"endAction":0} Data1: 0 Data2: 0 true'
+04-21 13:17:03.407  1895 13726 E ReactNativeJS: 'schedule creation selected time', { id: 0,
+04-21 13:17:03.407  1895 13726 E ReactNativeJS:   hh: 7,
+04-21 13:17:03.407  1895 13726 E ReactNativeJS:   mm: 49,
+04-21 13:17:03.407  1895 13726 E ReactNativeJS:   index: 0,
+04-21 13:17:03.407  1895 13726 E ReactNativeJS:   enable_disable: 1,
+04-21 13:17:03.407  1895 13726 E ReactNativeJS:   selectedtime: Mon Apr 21 2025 13:19:03 GMT+0530,
+04-21 13:17:03.407  1895 13726 E ReactNativeJS:   heatingduration: 1,
+04-21 13:17:03.407  1895 13726 E ReactNativeJS:   repeat: false,
+04-21 13:17:03.407  1895 13726 E ReactNativeJS:   weekdays: [ 1 ],
+04-21 13:17:03.407  1895 13726 E ReactNativeJS:   appid: 1,
+04-21 13:17:03.407  1895 13726 E ReactNativeJS:   toggle: true,
+04-21 13:17:03.407  1895 13726 E ReactNativeJS:   synced: false,
+04-21 13:17:03.407  1895 13726 E ReactNativeJS:   scheduleType: 0,
+04-21 13:17:03.407  1895 13726 E ReactNativeJS:   endAction: 0 }
+04-21 13:17:03.408  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.408  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:408 PM ] ', 'INFO', 'GENERAL_INFO', '2244', 'Data: [{"id":0,"hh":7,"mm":49,"index":0,"enable_disable":1,"selectedtime":"2025-04-21T07:49:03.393Z","heatingduration":1,"repeat":false,"weekdays":[1],"appid":1,"toggle":true,"synced":false,"scheduleType":0,"endAction":0}]'
+04-21 13:17:03.415  1895 13726 I ReactNativeJS: 'YourSchedule....', [ { id: 0,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     selectedtime: Mon Apr 21 2025 13:19:03 GMT+0530,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     synced: false,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.415  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:17:03.415  1895 13726 I ReactNativeJS: 'Yourschedule data.....', [ { id: 0,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     selectedtime: Mon Apr 21 2025 13:19:03 GMT+0530,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     synced: false,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.415  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 1
+04-21 13:17:03.415  1895 13726 I ReactNativeJS: '.........list', [ { id: 0,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     selectedtime: Mon Apr 21 2025 13:19:03 GMT+0530,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     synced: false,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.415  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.415  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:17:03.416  1895 13726 I ReactNativeJS: 'scheduledatabeforetoggleclick', [ { id: 0,
+04-21 13:17:03.416  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.416  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.416  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.416  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.416  1895 13726 I ReactNativeJS:     selectedtime: Mon Apr 21 2025 13:19:03 GMT+0530,
+04-21 13:17:03.416  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.416  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.416  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.416  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.416  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.416  1895 13726 I ReactNativeJS:     synced: false,
+04-21 13:17:03.416  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.416  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.429  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.429  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:429 PM ] ', 'INFO', 'GENERAL_INFO', '227', 'Data: [{"id":0,"hh":7,"mm":49,"index":0,"enable_disable":1,"selectedtime":"2025-04-21T07:49:03.393Z","heatingduration":1,"repeat":false,"weekdays":[1],"appid":1,"toggle":true,"synced":false,"scheduleType":0,"endAction":0}]'
+04-21 13:17:03.430  1895 13726 I ReactNativeJS: 'Schedule data...........', [ { id: 0,
+04-21 13:17:03.430  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.430  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.430  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.430  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.430  1895 13726 I ReactNativeJS:     selectedtime: Mon Apr 21 2025 13:19:03 GMT+0530,
+04-21 13:17:03.430  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.430  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.430  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.430  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.430  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.430  1895 13726 I ReactNativeJS:     synced: false,
+04-21 13:17:03.430  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.430  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.430  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.430  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:430 PM ] ', 'INFO', 'GENERAL_INFO', '228', 'Data: 01'
+04-21 13:17:03.436  1895 13726 I ReactNativeJS: 'YourSchedule....', [ { id: 0,
+04-21 13:17:03.436  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.436  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.436  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.436  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.436  1895 13726 I ReactNativeJS:     selectedtime: Mon Apr 21 2025 13:19:03 GMT+0530,
+04-21 13:17:03.436  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.436  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.436  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.436  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.436  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.436  1895 13726 I ReactNativeJS:     synced: false,
+04-21 13:17:03.436  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.436  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.436  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:17:03.437  1895 13726 I ReactNativeJS: 'Yourschedule data.....', [ { id: 0,
+04-21 13:17:03.437  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.437  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.437  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.437  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.437  1895 13726 I ReactNativeJS:     selectedtime: Mon Apr 21 2025 13:19:03 GMT+0530,
+04-21 13:17:03.437  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.437  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.437  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.437  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.437  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.437  1895 13726 I ReactNativeJS:     synced: false,
+04-21 13:17:03.437  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.437  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.437  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 1
+04-21 13:17:03.440  1895 13726 I ReactNativeJS: '.........list', [ { id: 0,
+04-21 13:17:03.440  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.440  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.440  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.440  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.440  1895 13726 I ReactNativeJS:     selectedtime: Mon Apr 21 2025 13:19:03 GMT+0530,
+04-21 13:17:03.440  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.440  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.440  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.440  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.440  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.440  1895 13726 I ReactNativeJS:     synced: false,
+04-21 13:17:03.440  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.440  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.440  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:17:03.441  1895 13726 I ReactNativeJS: 'scheduledatabeforetoggleclick', [ { id: 0,
+04-21 13:17:03.441  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.441  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.441  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.441  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.441  1895 13726 I ReactNativeJS:     selectedtime: Mon Apr 21 2025 13:19:03 GMT+0530,
+04-21 13:17:03.441  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.441  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.441  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.441  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.441  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.441  1895 13726 I ReactNativeJS:     synced: false,
+04-21 13:17:03.441  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.441  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.450  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.451  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:451 PM ] ', 'INFO', 'GENERAL_INFO', '229', 'Data: [{"id":0,"hh":7,"mm":49,"index":0,"enable_disable":1,"selectedtime":"2025-04-21T07:49:03.393Z","heatingduration":1,"repeat":false,"weekdays":[1],"appid":1,"toggle":true,"synced":false,"scheduleType":0,"endAction":0}]'
+04-21 13:17:03.451  1895 13726 I ReactNativeJS: 'schedule data propsssssssssssssssss', { message: 'scheduleconfig',
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:   setorquery: 1,
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:   schedule: 
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:    [ { id: 0,
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:        hh: 7,
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:        mm: 49,
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:        index: 0,
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:        enable_disable: 1,
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:        selectedtime: Mon Apr 21 2025 13:19:03 GMT+0530,
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:        heatingduration: 1,
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:        repeat: false,
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:        weekdays: [ 1 ],
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:        appid: 1,
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:        toggle: true,
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:        synced: false,
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:        scheduleType: 0,
+04-21 13:17:03.451  1895 13726 I ReactNativeJS:        endAction: 0 } ] }
+04-21 13:17:03.452  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.452  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:452 PM ] ', '[info] ', 'Setting Transaction Bit', 5, ''
+04-21 13:17:03.453  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.453  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:453 PM ] ', 'INFO', 'GENERAL_INFO', '2210', 'Data: [170,4,1,101,147,3,0,0,39,14,1,0,2,1,0,231,78,0,0,0,173,247,255,125] Data1: {"message":"scheduleconfig","setorquery":1,"schedule":[{"id":0,"hh":7,"mm":49,"index":0,"enable_disable":1,"selectedtime":"2025-04-21T07:49:03.393Z","heatingduration":1,"repeat":false,"weekdays":[1],"appid":1,"toggle":true,"synced":false,"scheduleType":0,"endAction":0}]} Data2: 5'
+04-21 13:17:03.453  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.453  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:453 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '120', 'SEND Serial_No:SAM00020250421KK Msg_Id: 19 Frame: 170,4,1,101,147,3,0,0,39,14,1,0,2,1,0,231,78,0,0,0,173,247,255,125 Trans_Id: 5 InterFace: undefined Auth: 1 forceInterface: undefined Data:{"message":"scheduleconfig","setorquery":1,"schedule":[{"id":0,"hh":7,"mm":49,"index":0,"enable_disable":1,"selectedtime":"2025-04-21T07:49:03.393Z","heatingduration":1,"repeat":false,"weekdays":[1],"appid":1,"toggle":true,"synced":false,"scheduleType":0,"endAction":0}]}'
+04-21 13:17:03.454  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.454  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:454 PM ] ', 'INFO', 'GENERAL_INFO', '121', 'Data: Current_Connectivity_Mode: 1'
+04-21 13:17:03.457  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.458  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:458 PM ] ', 'INFO', 'GENERAL_INFO', '122', 'Data: Sending BLE write message in connectivity 34:98:7A:9F:57:B2 [170,8,1,101,159,6,119,168,114,237,255,58,118,239,177,239,0,53,5,153,131,73,118,146,6,207,158,152,187,222,188,38,191,141,72,15,79,19,222,93]'
+04-21 13:17:03.598  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.599  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:598 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '1152', 'Raw data from ble [170,0,0,101,85,255,255,154]'
+04-21 13:17:03.600  1895 13726 I ReactNativeJS: {}, 'gettting old state', 5
+04-21 13:17:03.600  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.600  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:600 PM ] ', 'WARN', 'GENERAL_INFO', '1844', 'Data: transactionID null ack 5'
+04-21 13:17:03.602  1895 13726 I ReactNativeJS: 'nextstate......', [ { serial_no: 'SAM00020250421KK',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     name: 'testuser_1',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     is_admin: true,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     router_ssid: '',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     router_mac: '',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     heating_dur_usg_limit: 20,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     inverse_schedule_dur: 20,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     infinityOn_Toggle: true,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     brand_name: 'Select Brand',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     model_name: '',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     capacity: '',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     room_size: undefined,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     auto_onoff_enable: undefined,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     sch_ovr_auto_onoff: undefined,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     dev_led_quiet_mode: false,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     high_temp_thrs: NaN,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     low_temp_thrs: NaN,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     latitude: 11.9392838,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     longitude: 79.8083792,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     cur_firm_vrs: '1.15',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     hw_vrs: '0.5',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     product_type: '0',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     svr_ota: false,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     max_alaram_supported: 24,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     device_OTA_State: 0,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     update_Status: 'NotUpdated',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     BLE_mac: '34:98:7A:9F:57:B2',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     app_id: 1,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     token_key: 19,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     build_number: 64,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     IP_add: '',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     energy_config_mode: 0,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     low_volt_thrs: 160,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     high_volt_thrsh: 275,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     enable_low_volt: false,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     enable_high_volt: false,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     localConnection: false,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     serverConnection: false,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     connection: false,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     onOffStatus: 0,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     current: '',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     voltage: '',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     power: '',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     is_appid_exist: true,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     temp: '',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     temp_connect_status: false,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     loading: false,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     auth_status: 2,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     temperQueryStatus: false,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     eleTempQueryStatus: false,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     device_Id: '6805e97fe1dd8429ae7e812c',
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     srv_vrs: 0,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     cert_vrs: 2,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     srv_typ: 1,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     latest_cert_vrs: 2,
+04-21 13:17:03.602  1895 13726 I ReactNativeJS:     cert_expiry: '2125-05-02T18:30:00.000Z' } ]
+04-21 13:17:03.602  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.603  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:602 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '121', 'RECV Serial_No: SAM00020250421KK Msg_Id: -1 Trans_Id: 5 InterFace: 1 SetOrQuery: undefined Data: undefined'
+04-21 13:17:03.603  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.603  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:603 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '122', 'Error: ERROR Invalid Message ID in message Distributor -1'
+04-21 13:17:03.793  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.793  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:793 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '1152', 'Raw data from ble [170,4,1,41,167,193,245,178,98,89,37,233,89,230,235,73,182,111,150,228,127,234,83,32]'
+04-21 13:17:03.794  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.795  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:794 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '1152', 'Raw data from ble [170,4,1,37,162,209,198,112,89,73,57,180,116,202,53,28,112,198,91,86,170,111,111,84]'
+04-21 13:17:03.796  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.796  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:796 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '121', 'RECV Serial_No: SAM00020250421KK Msg_Id: 46 Trans_Id: 9 InterFace: 1 SetOrQuery: 0 Data: {"parameter_ID":3,"last_sched_updt_time":1745221621,"query_notify":true}'
+04-21 13:17:03.797  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.797  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:797 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '121', 'RECV Serial_No: SAM00020250421KK Msg_Id: 19 Trans_Id: 5 InterFace: 1 SetOrQuery: 1 Data: [{"set_response":1,"index":0}]'
+04-21 13:17:03.798  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.798  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:798 PM ] ', 'INFO', 'GENERAL_INFO', '222', 'Data: {"schedule":[{"set_response":1,"index":0}],"setorquery":1,"serial_no":"SAM00020250421KK"} 1'
+04-21 13:17:03.798  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.798  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:798 PM ] ', 'INFO', 'GENERAL_INFO', '223', 'Data: {"schedule":[{"set_response":1,"index":0}],"setorquery":1,"serial_no":"SAM00020250421KK"}'
+04-21 13:17:03.798  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.798  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:798 PM ] ', 'WARN', 'GENERAL_INFO', '2247', 'Existing schedule received from the device. : {"schedule":[{"set_response":1,"index":0}],"setorquery":1,"serial_no":"SAM00020250421KK"}'
+04-21 13:17:03.799  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.799  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:799 PM ] ', 'INFO', 'GENERAL_INFO', '2110', 'Preparing the list of notifications device detected error [] Maintenance [] allDevices [{"serial_no":"SAM00020250421KK","name":"testuser_1","is_admin":true,"router_ssid":"","router_mac":"","heating_dur_usg_limit":20,"inverse_schedule_dur":20,"infinityOn_Toggle":true,"brand_name":"Select Brand","model_name":"","capacity":"","dev_led_quiet_mode":false,"high_temp_thrs":null,"low_temp_thrs":null,"latitude":11.9392838,"longitude":79.8083792,"cur_firm_vrs":"1.15","hw_vrs":"0.5","product_type":"0","svr_ota":false,"max_alaram_supported":24,"device_OTA_State":0,"update_Status":"NotUpdated","BLE_mac":"34:98:7A:9F:57:B2","app_id":1,"token_key":19,"build_number":64,"IP_add":"","energy_config_mode":0,"low_volt_thrs":160,"high_volt_thrsh":275,"enable_low_volt":false,"enable_high_volt":false,"localConnection":false,"serverConnection":false,"connection":false,"onOffStatus":0,"current":"","voltage":"","power":"","is_appid_exist":true,"temp":"","temp_connect_status":false,"loading":false,"auth_status":2,"temperQueryStatus":false,"eleTempQueryStatus":false,"device_Id":"6805e97fe1dd8429ae7e812c","srv_vrs":0,"cert_vrs":2,"srv_typ":1,"latest_cert_vrs":2,"cert_expiry":"2125-05-02T18:30:00.000Z"}] data {"parameter_ID":3,"last_sched_updt_time":1745221621,"query_notify":true,"serial_no":"SAM00020250421KK"} device name testuser_1'
+04-21 13:17:03.805  1895 13726 I ReactNativeJS: 'YourSchedule....', [ { id: 0,
+04-21 13:17:03.805  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.805  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.805  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.805  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.805  1895 13726 I ReactNativeJS:     selectedtime: '2025-04-21T07:49:03.393Z',
+04-21 13:17:03.805  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.805  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.805  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.805  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.805  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.805  1895 13726 I ReactNativeJS:     synced: true,
+04-21 13:17:03.805  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.805  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.806  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:17:03.806  1895 13726 I ReactNativeJS: 'Yourschedule data.....', [ { id: 0,
+04-21 13:17:03.806  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.806  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.806  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.806  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.806  1895 13726 I ReactNativeJS:     selectedtime: '2025-04-21T07:49:03.393Z',
+04-21 13:17:03.806  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.806  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.806  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.806  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.806  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.806  1895 13726 I ReactNativeJS:     synced: true,
+04-21 13:17:03.806  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.806  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.806  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 1
+04-21 13:17:03.808  1895 13726 I ReactNativeJS: '.........list', [ { id: 0,
+04-21 13:17:03.808  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.808  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.808  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.808  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.808  1895 13726 I ReactNativeJS:     selectedtime: '2025-04-21T07:49:03.393Z',
+04-21 13:17:03.808  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.808  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.808  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.808  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.808  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.808  1895 13726 I ReactNativeJS:     synced: true,
+04-21 13:17:03.808  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.808  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.808  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:17:03.809  1895 13726 I ReactNativeJS: 'scheduledatabeforetoggleclick', [ { id: 0,
+04-21 13:17:03.809  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.809  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.809  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.809  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.809  1895 13726 I ReactNativeJS:     selectedtime: '2025-04-21T07:49:03.393Z',
+04-21 13:17:03.809  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.809  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.809  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.809  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.809  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.809  1895 13726 I ReactNativeJS:     synced: true,
+04-21 13:17:03.809  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.809  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.818  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.819  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:818 PM ] ', 'INFO', 'GENERAL_INFO', '227', 'Data: [{"id":0,"hh":7,"mm":49,"index":0,"enable_disable":1,"selectedtime":"2025-04-21T07:49:03.393Z","heatingduration":1,"repeat":false,"weekdays":[1],"appid":1,"toggle":true,"synced":true,"scheduleType":0,"endAction":0}]'
+04-21 13:17:03.819  1895 13726 I ReactNativeJS: 'Schedule data...........', [ { id: 0,
+04-21 13:17:03.819  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.819  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.819  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.819  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.819  1895 13726 I ReactNativeJS:     selectedtime: '2025-04-21T07:49:03.393Z',
+04-21 13:17:03.819  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.819  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.819  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.819  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.819  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.819  1895 13726 I ReactNativeJS:     synced: true,
+04-21 13:17:03.819  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.819  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.829  1895 13726 I ReactNativeJS: 'YourSchedule....', [ { id: 0,
+04-21 13:17:03.829  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.829  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.829  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.829  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.829  1895 13726 I ReactNativeJS:     selectedtime: '2025-04-21T07:49:03.393Z',
+04-21 13:17:03.829  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.829  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.829  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.829  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.829  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.829  1895 13726 I ReactNativeJS:     synced: true,
+04-21 13:17:03.829  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.829  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.829  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:17:03.830  1895 13726 I ReactNativeJS: 'Yourschedule data.....', [ { id: 0,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     selectedtime: '2025-04-21T07:49:03.393Z',
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     synced: true,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.830  1895 13726 I ReactNativeJS: 'Yourschedule len.....', 1
+04-21 13:17:03.830  1895 13726 I ReactNativeJS: '.........list', [ { id: 0,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     selectedtime: '2025-04-21T07:49:03.393Z',
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     synced: true,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.830  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.830  1895 13726 I ReactNativeJS: '.........index', 0
+04-21 13:17:03.831  1895 13726 I ReactNativeJS: 'scheduledatabeforetoggleclick', [ { id: 0,
+04-21 13:17:03.831  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:03.831  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:03.831  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:03.831  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:03.831  1895 13726 I ReactNativeJS:     selectedtime: '2025-04-21T07:49:03.393Z',
+04-21 13:17:03.831  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:03.831  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:03.831  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:03.831  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:03.831  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:03.831  1895 13726 I ReactNativeJS:     synced: true,
+04-21 13:17:03.831  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:03.831  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:03.840  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.840  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:840 PM ] ', 'INFO', 'GENERAL_INFO', '228', 'Data: 00'
+04-21 13:17:03.840  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.840  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:840 PM ] ', 'WARN', 'GENERAL_INFO', '2211', 'Data: true'
+04-21 13:17:03.842  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.842  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:842 PM ] ', 'Retrieve the last received schedule timestamp from local storage and compare it with the newly received timestamp', { SAM00020250421KK: 1745221532 }, undefined, undefined
+04-21 13:17:03.842  1895 13726 I ReactNativeJS: 'schedule data propsssssssssssssssss', { message: 'scheduleconfig', setorquery: 0, schedule: [] }
+04-21 13:17:03.843  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.843  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:843 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '120', 'SEND Serial_No:SAM00020250421KK Msg_Id: 19 Frame: 170,1,1,38,19,0,0,0,70,254,254,217 Trans_Id: 6 InterFace: undefined Auth: 1 forceInterface: undefined Data:{"message":"scheduleconfig","setorquery":0,"schedule":[]}'
+04-21 13:17:03.843  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.843  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:843 PM ] ', 'INFO', 'GENERAL_INFO', '121', 'Data: Current_Connectivity_Mode: 1'
+04-21 13:17:03.847  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.847  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:847 PM ] ', 'INFO', 'GENERAL_INFO', '122', 'Data: Sending BLE write message in connectivity 34:98:7A:9F:57:B2 [170,4,1,38,72,52,222,234,114,154,214,176,140,138,174,198,252,61,78,219,31,226,22,158]'
+04-21 13:17:03.990  1895 13726 I ReactNativeJS: 
+04-21 13:17:03.991  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:3:990 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '1152', 'Raw data from ble [170,52,1,38,236,170,238,3,166,70,60,10,136,51,40,99,193,155,175,13,149,25,3,243,173,214,43,94,89,148,173,234,57,139,119,181,202,118,133,186,224,70,135,18,36,133,44,182,129,93,86,61,107,187,29,43,246,176,143,86,137,229,235,253,174,222,143,13,96,224,181,34,23,83,135,126,112,235,32,160,185,159,177,203,120,147,193,66,33,70,228,21,132,233,35,63,68,140,11,141,4,5,88,192,205,162,194,136,179,131,20,173,120,240,42,18,228,73,164,102,124,89,27,33,33,73,39,58,172,89,16,245,2,102,203,41,229,101,12,36,14,102,45,157,24,177,250,46,224,28,183,164,233,171,54,217,183,216,239,221,179,164,25,169,170,228,53,105,0,74,250,143,215,104,189,140,167,139,60,211,247,143,218,84,240,137,233,128,129,69,240,179,168,136,137,129,225,178,134,96,111,191,3,226,20,186,90,12,235,2,219,0,114,8,50,41]'
+04-21 13:17:03.994  1895 13726 I ReactNativeJS: 2669, 'a111111111111111111'
+04-21 13:17:03.994  1895 13726 I ReactNativeJS: [ 0, 2669 ], 'a222222222222222222222'
+04-21 13:17:03.994  1895 13726 I ReactNativeJS: [ 1, 621 ], 'a3333333333333333333'
+04-21 13:17:03.994  1895 13726 E ReactNativeJS: 'enable_disable', 1
+04-21 13:17:03.995  1895 13726 E ReactNativeJS: 'mm', 19
+04-21 13:17:03.996  1895 13726 E ReactNativeJS: 'hh', 13
+04-21 13:17:03.997  1895 13726 E ReactNativeJS: 'sel_time', 231
+04-21 13:17:03.999  1895 13726 E ReactNativeJS: 'M2UTC....................', 13, 19, [ 1 ], 231
+04-21 13:17:04.000  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.000  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:0 PM ] ', 'M2UTC timeInminutes', 799, undefined, undefined
+04-21 13:17:04.001  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.001  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:1 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.001  1895 13726 I ReactNativeJS: 0, 'a111111111111111111'
+04-21 13:17:04.001  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a222222222222222222222'
+04-21 13:17:04.001  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a3333333333333333333'
+04-21 13:17:04.001  1895 13726 E ReactNativeJS: 'enable_disable', 0
+04-21 13:17:04.002  1895 13726 E ReactNativeJS: 'mm', 0
+04-21 13:17:04.004  1895 13726 E ReactNativeJS: 'hh', 0
+04-21 13:17:04.005  1895 13726 E ReactNativeJS: 'sel_time', 0
+04-21 13:17:04.006  1895 13726 E ReactNativeJS: 'M2UTC....................', 0, 0, [], 0
+04-21 13:17:04.007  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.007  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:7 PM ] ', 'M2UTC timeInminutes', 0, undefined, undefined
+04-21 13:17:04.007  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.007  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:7 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.008  1895 13726 I ReactNativeJS: 'tmr.......', Tue Apr 22 2025 00:00:00 GMT+0530
+04-21 13:17:04.008  1895 13726 I ReactNativeJS: 0, 'a111111111111111111'
+04-21 13:17:04.008  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a222222222222222222222'
+04-21 13:17:04.008  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a3333333333333333333'
+04-21 13:17:04.008  1895 13726 E ReactNativeJS: 'enable_disable', 0
+04-21 13:17:04.010  1895 13726 E ReactNativeJS: 'mm', 0
+04-21 13:17:04.011  1895 13726 E ReactNativeJS: 'hh', 0
+04-21 13:17:04.012  1895 13726 E ReactNativeJS: 'sel_time', 0
+04-21 13:17:04.013  1895 13726 E ReactNativeJS: 'M2UTC....................', 0, 0, [], 0
+04-21 13:17:04.015  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.015  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:15 PM ] ', 'M2UTC timeInminutes', 0, undefined, undefined
+04-21 13:17:04.015  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.015  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:15 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.015  1895 13726 I ReactNativeJS: 'tmr.......', Tue Apr 22 2025 00:00:00 GMT+0530
+04-21 13:17:04.016  1895 13726 I ReactNativeJS: 0, 'a111111111111111111'
+04-21 13:17:04.016  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a222222222222222222222'
+04-21 13:17:04.016  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a3333333333333333333'
+04-21 13:17:04.016  1895 13726 E ReactNativeJS: 'enable_disable', 0
+04-21 13:17:04.017  1895 13726 E ReactNativeJS: 'mm', 0
+04-21 13:17:04.018  1895 13726 E ReactNativeJS: 'hh', 0
+04-21 13:17:04.019  1895 13726 E ReactNativeJS: 'sel_time', 0
+04-21 13:17:04.021  1895 13726 E ReactNativeJS: 'M2UTC....................', 0, 0, [], 0
+04-21 13:17:04.022  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.022  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:22 PM ] ', 'M2UTC timeInminutes', 0, undefined, undefined
+04-21 13:17:04.022  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.022  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:22 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.023  1895 13726 I ReactNativeJS: 'tmr.......', Tue Apr 22 2025 00:00:00 GMT+0530
+04-21 13:17:04.023  1895 13726 I ReactNativeJS: 0, 'a111111111111111111'
+04-21 13:17:04.023  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a222222222222222222222'
+04-21 13:17:04.023  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a3333333333333333333'
+04-21 13:17:04.023  1895 13726 E ReactNativeJS: 'enable_disable', 0
+04-21 13:17:04.024  1895 13726 E ReactNativeJS: 'mm', 0
+04-21 13:17:04.025  1895 13726 E ReactNativeJS: 'hh', 0
+04-21 13:17:04.026  1895 13726 E ReactNativeJS: 'sel_time', 0
+04-21 13:17:04.027  1895 13726 E ReactNativeJS: 'M2UTC....................', 0, 0, [], 0
+04-21 13:17:04.029  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.029  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:29 PM ] ', 'M2UTC timeInminutes', 0, undefined, undefined
+04-21 13:17:04.029  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.029  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:29 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.029  1895 13726 I ReactNativeJS: 'tmr.......', Tue Apr 22 2025 00:00:00 GMT+0530
+04-21 13:17:04.029  1895 13726 I ReactNativeJS: 0, 'a111111111111111111'
+04-21 13:17:04.029  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a222222222222222222222'
+04-21 13:17:04.030  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a3333333333333333333'
+04-21 13:17:04.030  1895 13726 E ReactNativeJS: 'enable_disable', 0
+04-21 13:17:04.032  1895 13726 E ReactNativeJS: 'mm', 0
+04-21 13:17:04.033  1895 13726 E ReactNativeJS: 'hh', 0
+04-21 13:17:04.034  1895 13726 E ReactNativeJS: 'sel_time', 0
+04-21 13:17:04.035  1895 13726 E ReactNativeJS: 'M2UTC....................', 0, 0, [], 0
+04-21 13:17:04.037  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.037  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:37 PM ] ', 'M2UTC timeInminutes', 0, undefined, undefined
+04-21 13:17:04.037  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.037  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:37 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.038  1895 13726 I ReactNativeJS: 'tmr.......', Tue Apr 22 2025 00:00:00 GMT+0530
+04-21 13:17:04.038  1895 13726 I ReactNativeJS: 0, 'a111111111111111111'
+04-21 13:17:04.038  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a222222222222222222222'
+04-21 13:17:04.038  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a3333333333333333333'
+04-21 13:17:04.038  1895 13726 E ReactNativeJS: 'enable_disable', 0
+04-21 13:17:04.039  1895 13726 E ReactNativeJS: 'mm', 0
+04-21 13:17:04.040  1895 13726 E ReactNativeJS: 'hh', 0
+04-21 13:17:04.041  1895 13726 E ReactNativeJS: 'sel_time', 0
+04-21 13:17:04.043  1895 13726 E ReactNativeJS: 'M2UTC....................', 0, 0, [], 0
+04-21 13:17:04.044  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.044  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:44 PM ] ', 'M2UTC timeInminutes', 0, undefined, undefined
+04-21 13:17:04.044  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.044  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:44 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.045  1895 13726 I ReactNativeJS: 'tmr.......', Tue Apr 22 2025 00:00:00 GMT+0530
+04-21 13:17:04.045  1895 13726 I ReactNativeJS: 0, 'a111111111111111111'
+04-21 13:17:04.045  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a222222222222222222222'
+04-21 13:17:04.045  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a3333333333333333333'
+04-21 13:17:04.046  1895 13726 E ReactNativeJS: 'enable_disable', 0
+04-21 13:17:04.047  1895 13726 E ReactNativeJS: 'mm', 0
+04-21 13:17:04.048  1895 13726 E ReactNativeJS: 'hh', 0
+04-21 13:17:04.049  1895 13726 E ReactNativeJS: 'sel_time', 0
+04-21 13:17:04.050  1895 13726 E ReactNativeJS: 'M2UTC....................', 0, 0, [], 0
+04-21 13:17:04.052  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.052  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:52 PM ] ', 'M2UTC timeInminutes', 0, undefined, undefined
+04-21 13:17:04.052  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.052  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:52 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.052  1895 13726 I ReactNativeJS: 'tmr.......', Tue Apr 22 2025 00:00:00 GMT+0530
+04-21 13:17:04.052  1895 13726 I ReactNativeJS: 0, 'a111111111111111111'
+04-21 13:17:04.052  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a222222222222222222222'
+04-21 13:17:04.052  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a3333333333333333333'
+04-21 13:17:04.053  1895 13726 E ReactNativeJS: 'enable_disable', 0
+04-21 13:17:04.054  1895 13726 E ReactNativeJS: 'mm', 0
+04-21 13:17:04.055  1895 13726 E ReactNativeJS: 'hh', 0
+04-21 13:17:04.056  1895 13726 E ReactNativeJS: 'sel_time', 0
+04-21 13:17:04.056  1895 13726 E ReactNativeJS: 'M2UTC....................', 0, 0, [], 0
+04-21 13:17:04.057  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.058  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:57 PM ] ', 'M2UTC timeInminutes', 0, undefined, undefined
+04-21 13:17:04.058  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.058  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:58 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.058  1895 13726 I ReactNativeJS: 'tmr.......', Tue Apr 22 2025 00:00:00 GMT+0530
+04-21 13:17:04.058  1895 13726 I ReactNativeJS: 0, 'a111111111111111111'
+04-21 13:17:04.058  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a222222222222222222222'
+04-21 13:17:04.058  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a3333333333333333333'
+04-21 13:17:04.058  1895 13726 E ReactNativeJS: 'enable_disable', 0
+04-21 13:17:04.060  1895 13726 E ReactNativeJS: 'mm', 0
+04-21 13:17:04.061  1895 13726 E ReactNativeJS: 'hh', 0
+04-21 13:17:04.062  1895 13726 E ReactNativeJS: 'sel_time', 0
+04-21 13:17:04.063  1895 13726 E ReactNativeJS: 'M2UTC....................', 0, 0, [], 0
+04-21 13:17:04.065  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.065  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:65 PM ] ', 'M2UTC timeInminutes', 0, undefined, undefined
+04-21 13:17:04.065  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.066  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:65 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.066  1895 13726 I ReactNativeJS: 'tmr.......', Tue Apr 22 2025 00:00:00 GMT+0530
+04-21 13:17:04.066  1895 13726 I ReactNativeJS: 0, 'a111111111111111111'
+04-21 13:17:04.066  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a222222222222222222222'
+04-21 13:17:04.066  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a3333333333333333333'
+04-21 13:17:04.066  1895 13726 E ReactNativeJS: 'enable_disable', 0
+04-21 13:17:04.067  1895 13726 E ReactNativeJS: 'mm', 0
+04-21 13:17:04.067  1895 13726 E ReactNativeJS: 'hh', 0
+04-21 13:17:04.068  1895 13726 E ReactNativeJS: 'sel_time', 0
+04-21 13:17:04.070  1895 13726 E ReactNativeJS: 'M2UTC....................', 0, 0, [], 0
+04-21 13:17:04.071  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.071  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:71 PM ] ', 'M2UTC timeInminutes', 0, undefined, undefined
+04-21 13:17:04.071  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.071  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:71 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.072  1895 13726 I ReactNativeJS: 'tmr.......', Tue Apr 22 2025 00:00:00 GMT+0530
+04-21 13:17:04.072  1895 13726 I ReactNativeJS: 0, 'a111111111111111111'
+04-21 13:17:04.072  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a222222222222222222222'
+04-21 13:17:04.072  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a3333333333333333333'
+04-21 13:17:04.072  1895 13726 E ReactNativeJS: 'enable_disable', 0
+04-21 13:17:04.073  1895 13726 E ReactNativeJS: 'mm', 0
+04-21 13:17:04.074  1895 13726 E ReactNativeJS: 'hh', 0
+04-21 13:17:04.076  1895 13726 E ReactNativeJS: 'sel_time', 0
+04-21 13:17:04.077  1895 13726 E ReactNativeJS: 'M2UTC....................', 0, 0, [], 0
+04-21 13:17:04.078  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.078  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:78 PM ] ', 'M2UTC timeInminutes', 0, undefined, undefined
+04-21 13:17:04.078  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.078  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:78 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.078  1895 13726 I ReactNativeJS: 'tmr.......', Tue Apr 22 2025 00:00:00 GMT+0530
+04-21 13:17:04.078  1895 13726 I ReactNativeJS: 0, 'a111111111111111111'
+04-21 13:17:04.079  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a222222222222222222222'
+04-21 13:17:04.079  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a3333333333333333333'
+04-21 13:17:04.079  1895 13726 E ReactNativeJS: 'enable_disable', 0
+04-21 13:17:04.080  1895 13726 E ReactNativeJS: 'mm', 0
+04-21 13:17:04.081  1895 13726 E ReactNativeJS: 'hh', 0
+04-21 13:17:04.082  1895 13726 E ReactNativeJS: 'sel_time', 0
+04-21 13:17:04.083  1895 13726 E ReactNativeJS: 'M2UTC....................', 0, 0, [], 0
+04-21 13:17:04.084  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.085  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:85 PM ] ', 'M2UTC timeInminutes', 0, undefined, undefined
+04-21 13:17:04.085  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.085  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:85 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.085  1895 13726 I ReactNativeJS: 'tmr.......', Tue Apr 22 2025 00:00:00 GMT+0530
+04-21 13:17:04.085  1895 13726 I ReactNativeJS: 0, 'a111111111111111111'
+04-21 13:17:04.085  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a222222222222222222222'
+04-21 13:17:04.085  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a3333333333333333333'
+04-21 13:17:04.085  1895 13726 E ReactNativeJS: 'enable_disable', 0
+04-21 13:17:04.086  1895 13726 E ReactNativeJS: 'mm', 0
+04-21 13:17:04.086  1895 13726 E ReactNativeJS: 'hh', 0
+04-21 13:17:04.087  1895 13726 E ReactNativeJS: 'sel_time', 0
+04-21 13:17:04.088  1895 13726 E ReactNativeJS: 'M2UTC....................', 0, 0, [], 0
+04-21 13:17:04.090  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.090  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:90 PM ] ', 'M2UTC timeInminutes', 0, undefined, undefined
+04-21 13:17:04.090  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.090  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:90 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.090  1895 13726 I ReactNativeJS: 'tmr.......', Tue Apr 22 2025 00:00:00 GMT+0530
+04-21 13:17:04.090  1895 13726 I ReactNativeJS: 0, 'a111111111111111111'
+04-21 13:17:04.091  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a222222222222222222222'
+04-21 13:17:04.091  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a3333333333333333333'
+04-21 13:17:04.091  1895 13726 E ReactNativeJS: 'enable_disable', 0
+04-21 13:17:04.091  1895 13726 E ReactNativeJS: 'mm', 0
+04-21 13:17:04.092  1895 13726 E ReactNativeJS: 'hh', 0
+04-21 13:17:04.093  1895 13726 E ReactNativeJS: 'sel_time', 0
+04-21 13:17:04.093  1895 13726 E ReactNativeJS: 'M2UTC....................', 0, 0, [], 0
+04-21 13:17:04.095  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.095  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:95 PM ] ', 'M2UTC timeInminutes', 0, undefined, undefined
+04-21 13:17:04.095  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.095  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:95 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.095  1895 13726 I ReactNativeJS: 'tmr.......', Tue Apr 22 2025 00:00:00 GMT+0530
+04-21 13:17:04.096  1895 13726 I ReactNativeJS: 0, 'a111111111111111111'
+04-21 13:17:04.096  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a222222222222222222222'
+04-21 13:17:04.096  1895 13726 I ReactNativeJS: [ 0, 0 ], 'a3333333333333333333'
+04-21 13:17:04.096  1895 13726 E ReactNativeJS: 'enable_disable', 0
+04-21 13:17:04.096  1895 13726 E ReactNativeJS: 'mm', 0
+04-21 13:17:04.097  1895 13726 E ReactNativeJS: 'hh', 0
+04-21 13:17:04.098  1895 13726 E ReactNativeJS: 'sel_time', 0
+04-21 13:17:04.099  1895 13726 E ReactNativeJS: 'M2UTC....................', 0, 0, [], 0
+04-21 13:17:04.102  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.102  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:102 PM ] ', 'M2UTC timeInminutes', 0, undefined, undefined
+04-21 13:17:04.102  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.102  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:102 PM ] ', 'input date..........', Mon Apr 21 2025 13:17:04 GMT+0530, undefined, undefined
+04-21 13:17:04.102  1895 13726 I ReactNativeJS: 'tmr.......', Tue Apr 22 2025 00:00:00 GMT+0530
+04-21 13:17:04.102  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.103  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:102 PM ] ', 'INFO', 'MESSAGE_TRANSFER', '121', 'RECV Serial_No: SAM00020250421KK Msg_Id: 19 Trans_Id: 6 InterFace: 1 SetOrQuery: 0 Data: [{"enable_disable":1,"mm":19,"hh":13,"scheduleType":0,"heatingduration":1,"toggle":true,"synced":true,"weekdays":[1],"selectedtime":"1970-08-20T07:49:00.000Z","repeat":false,"appid":1,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.007Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.015Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.022Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.028Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.037Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.044Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.051Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.057Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.065Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.071Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.078Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.084Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.090Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.095Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.102Z","repeat":false,"appid":0,"index":0,"relay_id":0}]'
+04-21 13:17:04.104  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.104  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:104 PM ] ', 'INFO', 'GENERAL_INFO', '222', 'Data: {"schedule":[{"enable_disable":1,"mm":19,"hh":13,"scheduleType":0,"heatingduration":1,"toggle":true,"synced":true,"weekdays":[1],"selectedtime":"1970-08-20T07:49:00.000Z","repeat":false,"appid":1,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.007Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.015Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.022Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.028Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.037Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.044Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.051Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.057Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.065Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.071Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.078Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.084Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.090Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.095Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.102Z","repeat":false,"appid":0,"index":0,"relay_id":0}],"setorquery":0,"serial_no":"SAM00020250421KK"} undefined'
+04-21 13:17:04.105  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.106  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:105 PM ] ', 'WARN', 'GENERAL_INFO', '2247', 'Existing schedule received from the device. : {"schedule":[{"enable_disable":1,"mm":19,"hh":13,"scheduleType":0,"heatingduration":1,"toggle":true,"synced":true,"weekdays":[1],"selectedtime":"1970-08-20T07:49:00.000Z","repeat":false,"appid":1,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.007Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.015Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.022Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.028Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.037Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.044Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.051Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.057Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.065Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.071Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.078Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.084Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.090Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.095Z","repeat":false,"appid":0,"index":0,"relay_id":0},{"enable_disable":0,"mm":0,"hh":0,"scheduleType":0,"heatingduration":0,"toggle":true,"synced":true,"weekdays":[],"selectedtime":"2025-04-21T18:30:00.102Z","repeat":false,"appid":0,"index":0,"relay_id":0}],"setorquery":0,"serial_no":"SAM00020250421KK"}'
+04-21 13:17:04.115  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.116  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:115 PM ] ', 'WARN', 'GENERAL_INFO', '2248', 'Retrieving schedule data from the application local storage {"SAM00020250421KK":[{"id":0,"hh":7,"mm":49,"index":0,"enable_disable":1,"selectedtime":"2025-04-21T07:49:03.393Z","heatingduration":1,"repeat":false,"weekdays":[1],"appid":1,"toggle":true,"synced":true,"scheduleType":0,"endAction":0}]}'
+04-21 13:17:04.116  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.116  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:116 PM ] ', 'WARN', 'GENERAL_INFO', '2249', 'Before saving the schedule data to local storage {"SAM00020250421KK":[{"id":0,"hh":7,"mm":49,"index":0,"enable_disable":1,"selectedtime":"2025-04-21T07:49:03.393Z","heatingduration":1,"repeat":false,"weekdays":[1],"appid":1,"toggle":true,"synced":true,"scheduleType":0,"endAction":0}]}'
+04-21 13:17:04.118  1895 13726 I ReactNativeJS: 
+04-21 13:17:04.118  1895 13726 I ReactNativeJS: '[D: 21/4/2025 T: 13:17:4:118 PM ] ', 'INFO', 'GENERAL_INFO', '225', 'Data: {"SAM00020250421KK":[{"id":0,"hh":7,"mm":49,"index":0,"enable_disable":1,"selectedtime":"2025-04-21T07:49:03.393Z","heatingduration":1,"repeat":false,"weekdays":[1],"appid":1,"toggle":true,"synced":true,"scheduleType":0,"endAction":0}]}'
+04-21 13:17:04.122  1895 13726 I ReactNativeJS: 'YourSchedule....', [ { id: 0,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     selectedtime: '2025-04-21T07:49:03.393Z',
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     appid: 1,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     toggle: true,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     synced: true,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     scheduleType: 0,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     endAction: 0 } ]
+04-21 13:17:04.122  1895 13726 I ReactNativeJS: 'userId....', 1
+04-21 13:17:04.122  1895 13726 I ReactNativeJS: 'Yourschedule data.....', [ { id: 0,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     hh: 7,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     mm: 49,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     index: 0,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     enable_disable: 1,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     selectedtime: '2025-04-21T07:49:03.393Z',
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     heatingduration: 1,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     repeat: false,
+04-21 13:17:04.122  1895 13726 I ReactNativeJS:     weekdays: [ 1 ],
+04-21 13:17:04.122  1895 13726 I ReactNative
