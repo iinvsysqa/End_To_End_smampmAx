@@ -69,7 +69,7 @@ public class Smartconfig extends MobileAppWrappers {
 		logReadandWrite readwrite = logReadandWrite.getInstance(loadProp("COM"));
 		try {
 			readwrite.openPort();
-			/*adddevicepage.pair(3);
+			adddevicepage.pair(3);
 			adddevicepage.blepermissionokpopup();
 			//sZephyr info page check
 			sZephyrinfopage.deviceNameCheck(loadProp("USERNAMEINAPP"));
@@ -87,10 +87,7 @@ public class Smartconfig extends MobileAppWrappers {
 			adddevicepage.checkdevicesettingstoast();
 			
 			//home page check
-			devicemenupage.checkUsername_devicesettings("Home page");*/
-			schedularpage.clickSchedulebtn();
-			schedularpage.createSchedules(3, 1, 1);
-			
+			devicemenupage.checkUsername_devicesettings("Home page");
 			adddevicepage.bleConnectivityCheck();
 			homepage.getCurrentvalue();
 			homepage.getVoltvalue();
