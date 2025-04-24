@@ -9,14 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">89,011</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">28,568</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">smamp_mAx_testcases.Smartconfig</td><td><a href="#m0">afterMethod</a></td><td rowspan="1">1745221035273</td><td rowspan="1">31694</td></tr><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">smamp_mAx_testcases.Smartconfig</td><td><a href="#m1">Smartconfig_pairing</a></td><td rowspan="1">1745220978049</td><td rowspan="1">57218</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">smamp_mAx_testcases.Ble_with_router</td><td><a href="#m0">afterMethod</a></td><td rowspan="1">1745302026814</td><td rowspan="1">89</td></tr><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">smamp_mAx_testcases.Ble_with_router</td><td><a href="#m1">Blewithrouter_pairing</a></td><td rowspan="1">1745301998424</td><td rowspan="1">28384</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">smamp_mAx_testcases.Smartconfig#afterMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: FAILED
-	at utils.Reporter.reportStep(Reporter.java:50)
-	at wrappers.GenericWrappers.clickbyXpath(GenericWrappers.java:144)
-	at pages.StoreLogPage.storeLogToDownloads(StoreLogPage.java:37)
+<h2>Default test</h2><h3 id="m0">smamp_mAx_testcases.Ble_with_router#afterMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: ScreenCapture&apos;s base64 string must not be null or empty
+	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+	at com.aventstack.extentreports.MediaEntityBuilder.createScreenCaptureFromBase64String(MediaEntityBuilder.java:44)
+	at com.aventstack.extentreports.MediaEntityBuilder.createScreenCaptureFromBase64String(MediaEntityBuilder.java:52)
+	at utils.Reporter.reportStep(Reporter.java:49)
+	at wrappers.GenericWrappers.killAndReopenApp(GenericWrappers.java:414)
+	at pages.StoreLogPage.storeLogToDownloads(StoreLogPage.java:35)
 	at pages.StoreLogPage.takeAppLog(StoreLogPage.java:53)
 	at wrappers.MobileAppWrappers.afterMethod(MobileAppWrappers.java:100)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -53,10 +56,13 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">smamp_mAx_testcases.Smartconfig#Smartconfig_pairing</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: FAILED
-	at utils.Reporter.reportStep(Reporter.java:50)
+<h3 id="m1">smamp_mAx_testcases.Ble_with_router#Blewithrouter_pairing</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: ScreenCapture&apos;s base64 string must not be null or empty
+	at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+	at com.aventstack.extentreports.MediaEntityBuilder.createScreenCaptureFromBase64String(MediaEntityBuilder.java:44)
+	at com.aventstack.extentreports.MediaEntityBuilder.createScreenCaptureFromBase64String(MediaEntityBuilder.java:52)
+	at utils.Reporter.reportStep(Reporter.java:49)
 	at wrappers.GenericWrappers.fail(GenericWrappers.java:855)
-	at smamp_mAx_testcases.Smartconfig.Smartconfig_pairing(Smartconfig.java:226)
+	at smamp_mAx_testcases.Ble_with_router.Blewithrouter_pairing(Ble_with_router.java:228)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

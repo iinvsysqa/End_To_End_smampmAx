@@ -72,6 +72,10 @@ public class Ble_with_router extends MobileAppWrappers {
 		logReadandWrite readwrite = logReadandWrite.getInstance(loadProp("COM"));
 		try {
 			readwrite.openPort();
+			schedularpage.clickSchedulebtn();
+			schedularpage.createSchedules(5, 2, 2);//mention the time to start ,how many schedules need to keep,interval between next schedule
+			schedularpage.backToHomepage();
+			
 			adddevicepage.pair(2);
 			//sZephyr info page check
 			sZephyrinfopage.deviceNameCheck(loadProp("USERNAMEINAPP"));
